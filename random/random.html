@@ -7,15 +7,12 @@
       $("button").click(function(){
       $.get("list.json", function(data, status){
       alert("Data: " + data + "\nStatus: " + status);
-      })
-      .done(function( data ) {
-      alert( "Data Loaded: " + data );
-      };
+      },"json");
       });
       });
     </script>
   </head>
   <body>
-    <button>Send an HTTP GET request to a page and get the result back-0</button>
+    <button>0</button>
   </body>
 </html>
