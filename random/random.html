@@ -5,15 +5,14 @@
     <script>
       $(document).ready(function(){
       $("button").click(function(){
-      $.get( "list.json", { name: "John", time: "2pm" } )
-      .done(function( data ) {
-      alert( "Data Loaded: " + data );
+      $.get("list.json", function(data, status){
+      alert("Data: " + data + "\nStatus: " + status);
       });
       });
       });
     </script>
   </head>
   <body>
-    <button>Send an HTTP GET request to a page and get the result back-0</button>
+    <button>Send an HTTP GET request to a page and get the result back-</button>
   </body>
 </html>
