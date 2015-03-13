@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>aRisearch</title>
+  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
+  <link href="http://users.ionio.gr/~aribezas/"/>
+  <updated>2015-03-13T10:01:39Z</updated>
+  <id>http://users.ionio.gr/~aribezas/index.xml</id>
+  <entry><title type="html">Add javascript to o-blog</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//javascript/2015/03/11_add-javascript-to-o-blog.html"/><updated>2015-03-11T10:00:00Z</updated><published>2015-03-11T10:00:00Z</published><id>javascript/2015/03/11_add-javascript-to-o-blog.html</id><category scheme="/tags/javascript.html" term="javascript" label="javascript"/><category scheme="/tags/o-blog.html" term="o@blog" label="o@blog"/>Lisp error in nil: (void-function htmlize-protect-string)
+</feed>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>aRisearch</title>
+  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
+  <link href="http://users.ionio.gr/~aribezas/"/>
+  <updated>2015-03-13T10:01:36Z</updated>
+  <id>http://users.ionio.gr/~aribezas/index.xml</id>
+  <entry><title type="html">Interesting sketches for live visuals</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//blog/2014/02/19_interesting-sketches-for-live-visuals.html"/><updated>2014-02-19T15:09:00Z</updated><published>2014-02-19T15:09:00Z</published><id>blog/2014/02/19_interesting-sketches-for-live-visuals.html</id><category scheme="/tags/inspiration.html" term="inspiration" label="inspiration"/>Lisp error in nil: (void-function htmlize-protect-string)
+</feed>

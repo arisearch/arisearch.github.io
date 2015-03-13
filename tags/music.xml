@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>aRisearch</title>
+  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
+  <link href="http://users.ionio.gr/~aribezas/"/>
+  <updated>2015-03-13T10:01:39Z</updated>
+  <id>http://users.ionio.gr/~aribezas/index.xml</id>
+  <entry><title type="html">The Rhythms</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//project/2014/02/11_the-rhythms.html"/><updated>2014-02-11T21:16:00Z</updated><published>2014-02-11T21:16:00Z</published><id>project/2014/02/11_the-rhythms.html</id><category scheme="/tags/rhythm.html" term="rhythm" label="rhythm"/><category scheme="/tags/music.html" term="music" label="music"/><category scheme="/tags/supercollider.html" term="supercollider" label="supercollider"/>Lisp error in nil: (void-function htmlize-protect-string)
+</feed>

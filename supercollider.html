@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8"/>
+    <title>SuperCollider</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="generator" content="o-blog v2.0"/>
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+	  <span class="sr-only">Toggle navigation</span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	</button>
+      </div>
+      <a class="navbar-brand" href="./index.html">aRisearch</a>
+      <div class="collapse navbar-collapse">
+	<ul class="org-ul">
+<li><a href="#">Exposition</a>
+<ul class="org-ul">
+<li><a href="http://ionio.gr/~aribezas/interactive-sketches.html">Interactive Sketches</a>
+</li>
+<li><a href="http://ionio.gr/~aribezas/tumblr.html">Visual Art at igoumeninja.tumblr.com</a>
+</li>
+<li><a href="http://ionio.gr/~aribezas/tags/performance.html">Performances</a>
+</li>
+<li><a href="http://ionio.gr/~aribezas/tags/publication.html">Publications</a>
+</li>
+<li><a href="http://ionio.gr/~aribezas/tags/installation.html">Installations</a>
+</li>
+</ul>
+</li>
+
+<li><a href="#">Projects</a>
+
+<ul class="org-ul">
+<li><a href="./tags/react.html">REACT - Object Snadbox - The God Article</a>
+</li>
+</ul>
+</li>
+
+<li><a href="#">Gea</a>
+<ul class="org-ul">
+<li><a href="./gea.html">About</a>
+</li>
+<li><a href="./system-setup.html">System setup</a>
+</li>
+<li><a href="./first-steps.html">First steps</a>
+</li>
+<li><a href="./gea/2015/02/21_algorithmic-dymanic-score.html">Algorithmic & Dymanic Score</a>
+</li>
+<li><a href="./gea/2015/01/10_include-shaders-to-gea.html">Include shaders to GEA</a>
+</li>
+<li><a href="./gea/2014/06/24_machine-listening.html">Machine Listening</a>
+</li>
+<li><a href="./gea/2014/02/06_include-midi.html">Include MIDI</a>
+</li>
+<li><a href="./gea/2014/01/29_yasnippets.html">YASnippets</a>
+</li>
+</ul>
+</li>
+
+<li><a href="#"><i class="icon-file icon-white"></i> Blog</a>
+<ul class="org-ul">
+<li><a href="./blog/2015/03/01_circa-a-dataflow-based-language-for-live-coding.html">Circa: A Dataflow-Based Language for Live Coding</a>
+</li>
+<li><a href="./blog/2015/03/01_supercollider-and-tablas-jam.html">SuperCollider and Tablas Jam</a>
+</li>
+<li><a href="./blog/2015/03/01_reading-the-article-a-history-of-live-programming.html">Reading the article: /A History of Live Programming/</a>
+</li>
+<li><a href="./blog/2014/11/06_music-notation-supercollider.html">Music Notation - SuperCollider</a>
+</li>
+<li><a href="./blog/2014/08/07_create-portrait-with-of.html">Create Portrait with oF</a>
+</li>
+<li><a href="./blog/2014/05/01_circuit-and-electronics-design-and-simulators.html">Circuit and Electronics Design and Simulators</a>
+</li>
+<li><a href="./blog/2014/02/25_open-cad.html">Open CAD</a>
+</li>
+<li><a href="./blog/2014/02/21_latex-thesis-templates.html">LaTeX thesis templates</a>
+</li>
+</ul>
+</li>
+
+<li><a href="#">Categories</a>
+<ul class="org-ul">
+<li><a href="http://ionio.gr/~aribezas/index.html">Home</a>
+</li>
+<li><a href="http://ionio.gr/~aribezas/tags/phd.html">phD</a>
+</li>
+<li><a href="http://ionio.gr/~aribezas/tags/gea.html">Gea</a>
+</li>
+<li><a href="http://ionio.gr/~aribezas/tags/tool.html">Tools</a>
+</li>
+</ul>
+</li>
+
+<li><a href="./tags.html"><i class="icon-tags icon-white"></i> Tags</a>
+</li>
+
+<li><a href="./archives.html"><i class="icon-list icon-white"></i> Archive</a>
+</li>
+
+<li><a href="./search.html">Search</a>
+</li>
+
+<li><a href="./contact.html">Contact</a>
+</li>
+</ul>
+
+      </div>
+    </nav>
+
+    <div class="subnav subnav-fixed visible-desktop">
+      <div class="container">
+	<ul class="breadcrumb">
+  <li><a href="./index.html">Home</a> <span class="divider"></span></li>
+  <li>SuperCollider</li>
+  </ul>
+
+      </div>
+    </div>
+    <div id="page" class="container">
+
+<article>
+  <div class="article-content">
+    
+<div id="outline-container-sec-1" class="outline-1">
+<h1 id="sec-1">sc-emacs</h1>
+<div class="outline-text-1" id="text-1">
+<p>
+<b>IZ SuperCollider setup for org-mode with <i>Chuck</i> extensions</b>
+</p>
+<ul class="org-ul">
+<li>scel @ Extensions
+</li>
+<li>tiny-sc @ Extensions
+</li>
+<li>@ personal/preload
+<ul class="org-ul">
+<li>org-sc.el
+</li>
+<li>sc-snippets.el
+</li>
+</ul>
+</li>
+<li>@ elpa
+<ul class="org-ul">
+<li>sclang
+</li>
+</ul>
+</li>
+</ul>
+
+<p>
+packages:
+</p>
+<ul class="org-ul">
+<li>hl-sexp
+</li>
+<li>something with delimiters
+</li>
+</ul>
+<p>
+<b>in SC IDE</b>
+</p>
+
+<pre class="example">
+{WhiteNoise.ar} =&gt; \noise
+SynthTree.initTree
+</pre>
+
+<p>
+<b>in Emacs</b>
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="left">C-c M-s</td>
+<td class="left">sclang-start</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-,</td>
+<td class="left">eval-line</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-Alt-w</td>
+<td class="left">workspace</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-s</td>
+<td class="left">killAll</td>
+</tr>
+
+<tr>
+<td class="left">C-c C-x C-/</td>
+<td class="left">restart</td>
+</tr>
+
+<tr>
+<td class="left">C-fn-o</td>
+<td class="left">switch beetwen sc-mode and org-mode</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div><div id="outline-container-sec-2" class="outline-1">
+<h1 id="sec-2">sc-artists</h1>
+<div class="outline-text-1" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1">joshua parmenter</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+links:
+</p>
+<ul class="org-ul">
+<li><a href="http://www.realizedsound.net/josh/corpisonori.html">http://www.realizedsound.net/josh/corpisonori.html</a>
+</li>
+<li><a href="http://www.linkedin.com/in/joshuaparmenter">http://www.linkedin.com/in/joshuaparmenter</a>
+</li>
+<li><a href="http://www.dxarts.washington.edu/people/30-josh-parmenter">http://www.dxarts.washington.edu/people/30-josh-parmenter</a>
+</li>
+</ul>
+</div>
+</div><div id="outline-container-sec-2-2" class="outline-2">
+<h2 id="sec-2-2">gerard roma</h2>
+<div class="outline-text-2" id="text-2-2">
+<ul class="org-ul">
+<li><a href="https://github.com/chriskiefer/openframeworks-supercollider-host">of-sc github</a>
+</li>
+<li><a href="http://mtg.upf.edu/people/groma">music technology group (mtg) of the universitat pompeu fabra in barcelona</a>
+</li>
+<li><a href="http://supercolliderau.sourceforge.net/">supercolliderau</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-2-3" class="outline-2">
+<h2 id="sec-2-3"><a href="https://secure.wikimedia.org/wikipedia/en/wiki/ron_kuivila">ron kuivila</a></h2>
+</div><div id="outline-container-sec-2-4" class="outline-2">
+<h2 id="sec-2-4"><a href="http://ixi-audio.net/thor/">thor magnusson</a></h2>
+</div><div id="outline-container-sec-2-5" class="outline-2">
+<h2 id="sec-2-5"><a href="https://github.com/ptrv">peter vasil</a></h2>
+</div><div id="outline-container-sec-2-6" class="outline-2">
+<h2 id="sec-2-6"><a href="http://www.agxivatein.com/home.html">marinos koutsomichalis</a></h2>
+</div><div id="outline-container-sec-2-7" class="outline-2">
+<h2 id="sec-2-7"><a href="http://www.create.ucsb.edu/~stp/">Stephen Travis Pope</a></h2>
+<div class="outline-text-2" id="text-2-7">
+</div>
+</div><div id="outline-container-sec-2-8" class="outline-2">
+<h2 id="sec-2-8"><a href="http://www.sussex.ac.uk/Users/nc81/research.html">Nick Collins</a></h2>
+<div class="outline-text-2" id="text-2-8">
+</div>
+</div>
+</div><div id="outline-container-sec-3" class="outline-1">
+<h1 id="sec-3">sc-learning</h1>
+<div class="outline-text-1" id="text-3">
+</div><div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1">demonstrating SC to AK</h3>
+<div class="outline-text-3" id="text-3-1">
+<pre class="example">
+1+1
+WhiteNoise.ar
+
+s.boot
+
+(
+SynthDef("help-WhiteNoise", { arg out=0;
+    Out.ar(out,
+        WhiteNoise.ar(0.25)
+    )
+}).play;
+)
+
+(
+SynthDef("AK-sin", { arg out=0;
+    Out.ar(out,
+		SinOsc.ar(440)
+    )
+}).play;
+)
+
+x = Synth("AK-sin")
+x.free
+
+(
+SynthDef("AK-sin-1", { arg out=0,takis = 440;
+    Out.ar(out,
+		SinOsc.ar(takis)
+    )
+}).play;
+)
+
+x = Synth("AK-sin-1")
+x.set(\takis, 880)
+x.free
+</pre>
+</div>
+</div><div id="outline-container-sec-3-2" class="outline-2">
+<h2 id="sec-3-2">sc-installing</h2>
+<div class="outline-text-2" id="text-3-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="left">Installing SuperCollider on Windows 7 and 8 and dealing with 'Device unavailable' could not initialize audio'</td>
+<td class="left"><a href="http://superdupercollider.blogspot.gr/2013/10/installing-supercollider-on-windows-7.html">http://superdupercollider.blogspot.gr/2013/10/installing-supercollider-on-windows-7.html</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div><div id="outline-container-sec-3-3" class="outline-2">
+<h2 id="sec-3-3">sc-books</h2>
+<div class="outline-text-2" id="text-3-3">
+<ul class="org-ul">
+<li><a href="http://supercolliderbook.net/">The SuperCollider Book</a> by Wilson, S., Cottle, D. and Collins, N.
+</li>
+</ul>
+</div>
+</div><div id="outline-container-sec-3-4" class="outline-2">
+<h2 id="sec-3-4">sc-tutorial</h2>
+<div class="outline-text-2" id="text-3-4">
+<p>
+Download Earlab collection from : <a href="./media/code/SCTutorialCollection120703.zip">here</a>.
+</p>
+</div>
+</div><div id="outline-container-sec-3-5" class="outline-2">
+<h2 id="sec-3-5">sc-links</h2>
+<div class="outline-text-2" id="text-3-5">
+<ul class="org-ul">
+<li><a href="http://docs.fedoraproject.org/en-US/Fedora/15/html/Musicians_Guide/chap-Musicians_Guide-SuperCollider.html">fedora documentation fro SC</a>
+</li>
+<li><a href="http://www.fredrikolofsson.com/f0blog/?q=node/531">Why I love SC</a>
+</li>
+<li><a href="http://www.mat.ucsb.edu/275/">Music systems programming in SuperCollider</a> from MIT
+</li>
+<li><a href="http://www.adamjansch.co.uk/sc-a-day/">sc a day</a>
+</li>
+</ul>
+</div>
+</div><div id="outline-container-sec-3-6" class="outline-2">
+<h2 id="sec-3-6">bibliography</h2>
+<div class="outline-text-2" id="text-3-6">
+</div><div id="outline-container-sec-3-6-1" class="outline-4">
+<h4 id="sec-3-6-1">Electronic and Computer Music, Cognitive Sciences (General Bibliography)</h4>
+<div class="outline-text-4" id="text-3-6-1">
+<ul class="org-ul">
+<li>Collins, Nicolas. 2009. Handmade Electronic Music: The Art of Hardware Hacking. 2nd ed. Routledge, July 9.
+</li>
+<li>Dodge, Charles, and Thomas A. Jerse. 1997. Computer Music : Synthesis, Composition, and Performance. Vol. 2. New York London: Schirmer Books ; Prentice Hall International.
+</li>
+<li>Holmes, Thomas. 2008. Electronic and Experimental Music : Technology, Music, and Culture. 3rd ed. New York: Routledge.
+</li>
+<li>Landy, Leigh. 2007. Understanding the Art of Sound Organization. MIT Press, September 28.
+</li>
+<li>Miranda, Eduardo. 2001. Composing Music with Computers. Pap/Cdr. Focal Press, April 27.
+</li>
+<li>Miranda, Eduardo Reck. 2002. Computer Sound Design : Synthesis Techniques and Programming. Vol. 2. Oxford ; Boston: Focal Press.
+</li>
+<li>Miranda, Eduardo Reck, and Al Biles. 2007. Evolutionary Computer Music. London: Springer.
+</li>
+<li>Nierhaus, Gerhard. 2008. Algorithmic Composition: Paradigms Of Automated Music Generation. Springer, November 5.
+</li>
+<li>Nyman, Michael. 1999. Experimental Music: Cage and Beyond. 2nd ed. Cambridge University Press, July 29.
+</li>
+<li>Roads, Curtis. 1995. The Computer Music Tutorial. Cambridge, Mass.: MIT Press.
+</li>
+<li>temperley, david. 2007. music and probability. annotated edition. mit press, january 16.
+</li>
+<li>wilson, robert a. 2001. the mit encyclopedia of the cognitive sciences (bradford book). new edition. mit press, october 10.
+</li>
+<li>wilson, scott, david cottle, and nick collins. 2011. the supercollider book. mit press, may 20. (chapters 1-16)
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-3-6-2" class="outline-3">
+<h3 id="sec-3-6-2">computer music</h3>
+<div class="outline-text-3" id="text-3-6-2">
+<ul class="org-ul">
+<li>collins, nick (2009) introduction to computer music. chichester: wiley
+</li>
+<li>roads, curtis (1996) the computer music tutorial. cambridge, ma: mit press
+</li>
+<li>dodge, charles and jerse, thomas (1997) computer music synthesis, composition, and performance. new york: schirmer books
+</li>
+<li>moore, f. richard (1990) elements of computer music. englewood cliffs, nj: p t r prentice hall
+</li>
+<li>hugill, andrew (2008) the digital musician. new york, ny: routledge
+</li>
+<li>roads, curtis and strawn, john (eds.) (1985) foundations of computer music. cambridge, ma: mit press
+</li>
+<li>roads, curtis (ed.) (1989) the music machine. cambridge, ma: mit press
+</li>
+<li>loy, gareth (2007) musimathics, volumes 1 and 2. cambridge, ma: mit press
+</li>
+<li>puckette, miller s. (2007) the theory and technique of computer music. hackensack, nj: world scientific publishing co., inc.
+</li>
+<li>benson, david j. (2007) music: a mathematical offering. cambridge: cambridge university press
+</li>
+<li>brown, andrew (2007) computers in music education. new york, ny: routledge
+</li>
+<li>dean, roger (ed.) (2009) the oxford handbook of computer music. ny: oxford university press
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-3-6-3" class="outline-3">
+<h3 id="sec-3-6-3">sound synthesis</h3>
+<div class="outline-text-3" id="text-3-6-3">
+<ul class="org-ul">
+<li>miranda, eduardo reck (2002) computer sound design : synthesis techniques and programming. oxford: focal press. (used to be eduardo miranda (1998) computer sound synthesis for the electronic - musician. oxford: focal press.)
+</li>
+<li>russ, martin (2004) sound synthesis and sampling (2nd edition) oxford: focal press
+</li>
+<li>cook, perry (2002) real sound synthesis for interactive applications. a.k.peters.
+</li>
+<li>boulanger, richard (ed). (2000) the csound book. cambridge, ma: mit press
+</li>
+<li>csound website
+</li>
+<li>barry truax on granular synthesis
+</li>
+<li>julius o. smith (1991) "viewpoints on the history of digital sound synthesis". proceedings of the international computer music conference, montreal, oct 1991, pp. 1-10
+</li>
+<li>vesa välimäki and tapio takala. (1996) "virtual musical instruments - natural sound using physical models." organised sound 1(2): 75-86
+</li>
+<li>tero tolonen, vesa välimäki and matti karjalainen (1998). evaluation of modern sound synthesis methods. technical report 48, helsinki university of technology.
+</li>
+<li>chris chafe (1999) "a short history of digital sound synthesis by composers in the u.s.a". creativity and the computer, recontres musicales pluridisciplinaires, lyon, march, 1999.
+</li>
+<li>chris chafe (2004) "case studies of physical models in music composition". proc. 2004 intl. congress acoustics, kyoto
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-3-6-4" class="outline-3">
+<h3 id="sec-3-6-4">algorithmic composition</h3>
+<div class="outline-text-3" id="text-3-6-4">
+<ul class="org-ul">
+<li>miranda, eduardo reck (2001) composing music with computers. oxford: focal press
+</li>
+<li>pearce, m., meredith, d. and wiggins, g. a. (2002) motivations and methodologies for automation of the compositional process. musicae scientiae 6(2): 119-147
+</li>
+<li>computer music tutorial chapters 18 and 19
+</li>
+<li>ames, charles (1987) automated composition in retrospect 1956-1986. leonardo 20(2): 169-186
+</li>
+<li>hiller, l. a. and isaacson, l. m. (1979) (original edition 1959) experimental music : composition with an electronic computer. greenwood press
+</li>
+<li>cope, david (2005) computer models of musical creativity. cambridge, ma: mit press
+</li>
+<li>cope, david (2001) virtual music : computer synthesis of musical style. cambridge, ma: mit press
+</li>
+<li>cope, david (1996) experiments in musical intelligence. madison, wis.: a-r editions
+</li>
+<li>[cope, david (1991) computers and musical style. oxford: oxford university press.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-3-6-5" class="outline-3">
+<h3 id="sec-3-6-5">supercollider</h3>
+<div class="outline-text-3" id="text-3-6-5">
+</div><div id="outline-container-sec-3-6-5-1" class="outline-5">
+<h5 id="sec-3-6-5-1">Core SuperCollider Sites</h5>
+<div class="outline-text-5" id="text-3-6-5-1">
+<ul class="org-ul">
+<li>supercollider community homepage
+</li>
+<li>sourceforge supercollider download site
+</li>
+<li>swiki open resource site includes information on compiling, contributing code, and third party examples
+</li>
+<li>james mccartney's homepage (sc's original creator)
+</li>
+<li>james mccartney. (2002) rethinking the computer music language: supercollider. computer music journal, 26(4): 61-8
+</li>
+<li>downloading supercollider: (also see the sc community page at the top)
+</li>
+<li>all platforms (mac, windows, linux)
+</li>
+<li>linux compilation instructions
+older (2009) wesleyan builds for os x, ppc and intel, tiger and panther
+</li>
+</ul>
+</div>
+</div><div id="outline-container-sec-3-6-5-2" class="outline-4">
+<h4 id="sec-3-6-5-2">tutorials on supercollider:</h4>
+<div class="outline-text-4" id="text-3-6-5-2">
+<p>
+three come with supercollider: just navigate to them from the main help page
+a course by julio d'escrivan on sound synthesis using supercollider.
+there is also a course by david cottle with an associated book and supercollider examples - in order to obtain it you must email him yourself, explaining why you want it (at which point he will give you a download link). he has specifically requested that all potential users are monitored in this way, so i will not paste a direct link here - however, you may also see me in person if you'd like a copy.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-3-6-5-3" class="outline-4">
+<h4 id="sec-3-6-5-3">some supercollider standalone projects:</h4>
+<div class="outline-text-4" id="text-3-6-5-3">
+<p>
+tx modular by paul miller
+lnx studio by neil cosgrove
+ixiquarks by thor magnusson
+particularity by cylob
+beastmulch system by scott wilson and sergio luque
+there are others around, search for ghost walk, currymeter and more&#x2026;
+some supercollider audio examples on soundcloud
+</p>
+</div>
+</div>
+<div id="outline-container-sec-3-6-5-4" class="outline-4">
+<h4 id="sec-3-6-5-4">sc related blogs</h4>
+<div class="outline-text-4" id="text-3-6-5-4">
+<p>
+superdupercollider
+fredrik olofsson
+cylob
+supercollider junction (older)
+general computer music
+create digital music
+computer music blog
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-3-6-6" class="outline-3">
+<h3 id="sec-3-6-6">sound design</h3>
+<div class="outline-text-3" id="text-3-6-6">
+<ul class="org-ul">
+<li>farnell, andy (2008) designing sound: procedural audio for games and film. applied scientific press. (now published by mit press) the first part of the book, on pd, is available for free download, and there are also some nice example chapters. dan stowell has also supplied translations of some examples to supercollider: [sc examples]
+</li>
+<li>sonnenschein, david. (2001) sound design : the expressive power of music, voice, and sound effects in cinema. studio city, ca: michael wiese productions.
+</li>
+<li>viers, ric (2008) the sound effects bible: how to create and record hollywood style sound effects. studio city, ca: michael wiese productions.
+</li>
+<li>dan's cymbals:
+</li>
+<li>recreating james moorer's thx sound by batuhan bozkurt
+</li>
+<li>the miranda and cook sound synthesis textbooks have some related materials.
+</li>
+<li>sound design blog
+</li>
+<li>computer music magazines (music technology, future music, computer music, sound on sound et al.) can be a good source of tutorials and tips sections. an example from computer music of 100 tips
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-3-6-7" class="outline-3">
+<h3 id="sec-3-6-7">audio analysis, audio feature extraction</h3>
+<div class="outline-text-3" id="text-3-6-7">
+<ul class="org-ul">
+<li>SCMIR: SuperCollider Music Information Retrieval library by Nicolas Collins
+</li>
+<li>spear
+</li>
+<li>princeton soundlab live analysis sndtools
+</li>
+<li>cylob's extra fft examples (supercollider)
+</li>
+<li>scott wilson's loris ugens (supercollider)
+</li>
+<li>analysis of speech drives piano
+</li>
+<li>spectrotune: supposed polyphonic pitch extraction, really just tracks spectrum [source]
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-3-6-8" class="outline-3">
+<h3 id="sec-3-6-8">network music</h3>
+<div class="outline-text-3" id="text-3-6-8">
+<ul class="org-ul">
+<li>jason freeman's work including web projects and articles
+</li>
+<li>julian rohrhuber's work: also see jitlib in supercollider, and various quarks&#x2026;
+</li>
+<li>hobnox audiotool: demonstration of the capabilities of flash audio, work by andre michelle
+</li>
+<li>andrew hugill's links to accompany the digital musician, especially networked music links
+</li>
+<li>peter traub sound installation for the web: bits and pieces (collects sound files each morning and uses them for that days' creation)
+</li>
+</ul>
+</div>
+</div>
+</div><div id="outline-container-sec-3-7" class="outline-2">
+<h2 id="sec-3-7"><a href="http://users.teicrete.gr/taxd/03/0302/sc_howto/index_sc_howto.htm">H δομή λειτουργίας του SuperCollider (ελληνικά)</a></h2>
+<div class="outline-text-2" id="text-3-7">
+</div>
+</div>
+</div><div id="outline-container-sec-4" class="outline-1">
+<h1 id="sec-4">sc-haskell</h1>
+<div class="outline-text-1" id="text-4">
+<ul class="org-ul">
+<li><a href="http://rd.slavepianos.org/?t=work">http://rd.slavepianos.org/?t=work</a>
+</li>
+<li><a href="http://www.haskell.org/haskellwiki/SuperCollider">http://www.haskell.org/haskellwiki/SuperCollider</a>
+</li>
+<li></li>
+<li><a href="http://hackage.haskell.org/cgi-bin/hackage-scripts/package/haskore-supercollider">http://hackage.haskell.org/cgi-bin/hackage-scripts/package/haskore-supercollider</a>
+</li>
+<li><a href="http://byorgey.wordpress.com/2009/03/15/first-explorations-in-computer-music/">http://byorgey.wordpress.com/2009/03/15/first-explorations-in-computer-music/</a>
+</li>
+</ul>
+</div>
+</div><div id="outline-container-sec-5" class="outline-1">
+<h1 id="sec-5">Creare standalone application</h1>
+<div class="outline-text-1" id="text-5">
+
+<ul class="org-ul">
+<li><a href="http://akustik.hfbk.net/sc/SuperColliderHelp/Other%20Topics/Creating-Standalone-Applications.html">http://akustik.hfbk.net/sc/SuperColliderHelp/Other%20Topics/Creating-Standalone-Applications.html</a>
+</li>
+<li><a href="http://doc.sccode.org/Guides/standalones.html">http://doc.sccode.org/Guides/standalones.html</a>
+</li>
+</ul>
+</div>
+</div>
+
+  </div>
+</article>
+      </div>
+      <div id="footer">
+	<div class="container">
+	  <div class="row">
+	    <nav class="col-md-3">
+	      <h1>Περι</h1>
+	      <p>
+Aris Bezas is a creative coder mechanical engineer and phD candidate in Ionian University at AVARTS department with topic <i>Heterogeneous System for Live Visuals with the use Dynamic Algorithmic Score</i>.
+</p>
+
+<p>
+Ο Άρης Μπέζας είναι <i>μηχανολόγος μηχανικός</i> και ασχολείται με τον δημιουργικό προγραμματισμό εκπονόντας παράλληλα και τη διδακτορική του διατριβή στο Τμήμα Τεχνών Ήχου και Εικόνας του Ιόνιο Πανεπιστήμιο.
+</p>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10773558-17', 'ionio.gr');
+  ga('send', 'pageview');
+
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+  (function() {
+    var shr = document.createElement('script');
+    shr.setAttribute('data-cfasync', 'false');
+    shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+    shr.type = 'text/javascript'; shr.async = 'true';
+    shr.onload = shr.onreadystatechange = function() {
+      var rs = this.readyState;
+      if (rs && rs != 'complete' && rs != 'loaded') return;
+      var site_id = 'a33d0226efd189dfef1817da0dd41c90';
+      try { Shareaholic.init(site_id); } catch (e) {}
+    };
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(shr, s);
+  })();
+//]]>
+</script>
+
+	    </nav>
+	    <nav id="links" class="col-md-3">
+	      <h1>Ιστότοποι</h1>
+	      <!-- Navigation Footer -->
+	      <ul class="org-ul">
+<li><a href="./index.html"><i class="icon-home icon-white"></i> Home</a>
+</li>
+
+<li><a href="./blog/2015/03/01_circa-a-dataflow-based-language-for-live-coding.html"><i class="icon-file icon-white"></i> Blog</a>
+</li>
+
+<li><a href="./tags.html"><i class="icon-tags icon-white"></i> Tags</a>
+</li>
+
+<li><a href="./archives.html"><i class="icon-list icon-white"></i> Archives</a>
+</li>
+
+<li><a href="./index.xml"><i class="icon-rss icon-white"></i> RSS</a>
+</li>
+</ul>
+
+	      <!-- Navigation Footer -->
+	    </nav>
+	    <nav id="archives" class="col-md-3">
+	      <h1>Τα Τελευταία</h1>
+	      <nav id="archives">
+  <ul>
+    <li><a href="./javascript/2015/03/13_about-javascript.html">About Javascript</a></li> <li><a href="./software/2015/03/12_jquery-ajax.html">jQuery & Ajax</a></li> <li><a href="./software/2015/03/12_nano.html">nano</a></li> <li><a href="./emacs-latex-org-mode-terminal/2015/03/12_create-scripts-add-directory-to-path.html">Create scripts & Add directory to $PATH</a></li> <li><a href="./software/2015/03/12_vi.html">vi</a></li> <li><a href="./javascript/2015/03/12_use-nodejs-at-github-pages.html">Use Node.js at Github pages</a></li> <li><a href="./javascript/2015/03/12_random-page-collector.html">Random Page Collector</a></li> <li><a href="./javascript/2015/03/11_jquery.html">jQuery</a></li> <li><a href="./javascript/2015/03/11_add-javascript-to-o-blog.html">Add javascript to o-blog</a></li> <li><a href="./javascript/2015/03/09_nodejs.html">Node.js</a></li> <li><a href="./addons/2015/03/09_ofxjavascript.html">ofxJavascript</a></li> <li><a href="./git/2015/03/06_submodules.html">Submodules</a></li> <li><a href="./stem-cell-orchestra/2015/03/05_stem-cell-orchestra-project.html">Stem Cell Orchestra Project</a></li> <li><a href="./work-for-more-god-article/2015/03/05_working-on-the-god-article-2015-03-05-thu.html">Working on The God Article [2015-03-05 Thu]</a></li> <li><a href="./react/2015/03/01_the-god-article-documentary.html">The God Article - documentary</a></li> <li><a href="./blog/2015/03/01_circa-a-dataflow-based-language-for-live-coding.html">Circa: A Dataflow-Based Language for Live Coding</a></li> <li><a href="./blog/2015/03/01_supercollider-and-tablas-jam.html">SuperCollider and Tablas Jam</a></li> <li><a href="./blog/2015/03/01_reading-the-article-a-history-of-live-programming.html">Reading the article: /A History of Live Programming/</a></li> <li><a href="./work-for-more-god-article/2015/02/25_working-on-the-god-article-2015-02-25-wed.html">Working on The God Article [2015-02-25 Wed]</a></li> <li><a href="./work-for-more-god-article/2015/02/25_working-on-the-god-article-2015-03-01-sun.html">Working on The God Article [2015-03-01 Sun]</a></li> 
+  </ul>
+</nav>
+
+	    </nav>
+	    <nav class="tags col-md-3">
+	      <h1>Λέξεις Κλειδιά</h1>
+	      <span class="ob-tagcloud" data-source="./tags.js" data-path-to-root="."/>
+	    </nav>
+	  </div>
+	</div>
+	<div class="copyright" style="text-align: center;">
+	  <!-- copyright -->
+	  <p>
+This website created by Aris Bezas.</p>
+
+	  <p>Powered by <a href="https://github.com/renard/o-blog">o-blog</a>.</p>
+	</div>
+      </div>
+      <script type="text/javascript">
+      	var path_to_root = ".";
+	var ob_this_page = "supercollider.html";
+      </script>
+      <script src="./style/jquery-2.1.1.min.js"></script>
+      <script src="./style/bootstrap/js/bootstrap.min.js"></script>
+      <script src="./style/o-blog-bootstrap.min.js"></script>
+      <script type="text/javascript">
+	$(document).ready(function() {
+        $("head").append([
+	'<link href="./style/bootstrap/css/bootstrap.css" rel="stylesheet">',
+	'<link href="./style/Font-Awesome/css/font-awesome.min.css" rel="stylesheet">',
+	'<link href="./style/tipue/css/tipuesearch.css" rel="stylesheet">',
+        '<link href="./style/tipue/css/tipuedrop.css" rel="stylesheet">'].join());
+	});
+     </script>
+</body>
+</html>
+

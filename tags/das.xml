@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>aRisearch</title>
+  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
+  <link href="http://users.ionio.gr/~aribezas/"/>
+  <updated>2015-03-13T10:01:34Z</updated>
+  <id>http://users.ionio.gr/~aribezas/index.xml</id>
+  <entry><title type="html">Algorithmic & Dymanic Score</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//gea/2015/02/21_algorithmic-dymanic-score.html"/><updated>2015-02-21T17:50:00Z</updated><published>2015-02-21T17:50:00Z</published><id>gea/2015/02/21_algorithmic-dymanic-score.html</id><category scheme="/tags/gea.html" term="gea" label="gea"/><category scheme="/tags/das.html" term="das" label="das"/><category scheme="/tags/score.html" term="score" label="score"/><category scheme="/tags/supercollider.html" term="supercollider" label="supercollider"/><category scheme="/tags/phd.html" term="phd" label="phd"/>Lisp error in nil: (void-function htmlize-protect-string)
+</feed>

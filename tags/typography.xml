@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>aRisearch</title>
+  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
+  <link href="http://users.ionio.gr/~aribezas/"/>
+  <updated>2015-03-13T10:01:45Z</updated>
+  <id>http://users.ionio.gr/~aribezas/index.xml</id>
+  <entry><title type="html">Play with typography</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//studies-with-gea/2013/11/07_play-with-typography.html"/><updated>2013-11-07T19:55:00Z</updated><published>2013-11-07T19:55:00Z</published><id>studies-with-gea/2013/11/07_play-with-typography.html</id><category scheme="/tags/typography.html" term="typography" label="typography"/><category scheme="/tags/gea.html" term="gea" label="gea"/>Lisp error in nil: (void-function htmlize-protect-string)
+</feed>

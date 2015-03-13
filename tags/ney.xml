@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>aRisearch</title>
+  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
+  <link href="http://users.ionio.gr/~aribezas/"/>
+  <updated>2015-03-13T10:01:39Z</updated>
+  <id>http://users.ionio.gr/~aribezas/index.xml</id>
+  <entry><title type="html">Paspare</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//react/2014/05/06_paspare.html"/><updated>2014-05-06T08:55:00Z</updated><published>2014-05-06T08:55:00Z</published><id>react/2014/05/06_paspare.html</id><category scheme="/tags/react.html" term="react" label="react"/><category scheme="/tags/ney.html" term="ney" label="ney"/>Lisp error in nil: (void-function htmlize-protect-string)
+</feed>

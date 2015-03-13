@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>aRisearch</title>
+  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
+  <link href="http://users.ionio.gr/~aribezas/"/>
+  <updated>2015-03-13T10:01:44Z</updated>
+  <id>http://users.ionio.gr/~aribezas/index.xml</id>
+  <entry><title type="html">TEC611 - Human Machine Interafces</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//avarts/2014/02/01_tec611-human-machine-interafces.html"/><updated>2014-02-01T17:52:00Z</updated><published>2014-02-01T17:52:00Z</published><id>avarts/2014/02/01_tec611-human-machine-interafces.html</id><category scheme="/tags/tec611.html" term="tec611" label="tec611"/><category scheme="/tags/avarts.html" term="avarts" label="avarts"/>Lisp error in nil: (void-function htmlize-protect-string)
+</feed>

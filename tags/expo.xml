@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>aRisearch</title>
+  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
+  <link href="http://users.ionio.gr/~aribezas/"/>
+  <updated>2015-03-13T10:01:34Z</updated>
+  <id>http://users.ionio.gr/~aribezas/index.xml</id>
+  <entry><title type="html">Inside-Outside</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//installations/2014/08/01_inside-outside.html"/><updated>2014-08-01T13:19:00Z</updated><published>2014-08-01T13:19:00Z</published><id>installations/2014/08/01_inside-outside.html</id><category scheme="/tags/installation.html" term="installation" label="installation"/><category scheme="/tags/expo.html" term="expo" label="expo"/><category scheme="/tags/eastn.html" term="eastn" label="eastn"/>Lisp error in nil: (void-function htmlize-protect-string)
+</feed>

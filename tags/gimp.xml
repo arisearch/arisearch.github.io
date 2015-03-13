@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>aRisearch</title>
+  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
+  <link href="http://users.ionio.gr/~aribezas/"/>
+  <updated>2015-03-13T10:01:35Z</updated>
+  <id>http://users.ionio.gr/~aribezas/index.xml</id>
+  <entry><title type="html">Create Portrait with oF</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//blog/2014/08/07_create-portrait-with-of.html"/><updated>2014-08-07T12:44:00Z</updated><published>2014-08-07T12:44:00Z</published><id>blog/2014/08/07_create-portrait-with-of.html</id><category scheme="/tags/openframeworks.html" term="openframeworks" label="openframeworks"/><category scheme="/tags/gimp.html" term="gimp" label="gimp"/>Lisp error in nil: (void-function htmlize-protect-string)
+</feed>

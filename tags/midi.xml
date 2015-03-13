@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>aRisearch</title>
+  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
+  <link href="http://users.ionio.gr/~aribezas/"/>
+  <updated>2015-03-13T10:01:39Z</updated>
+  <id>http://users.ionio.gr/~aribezas/index.xml</id>
+  <entry><title type="html">Visualize midi files</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//studies-with-gea/2014/11/17_visualize-midi-files.html"/><updated>2014-11-17T10:02:00Z</updated><published>2014-11-17T10:02:00Z</published><id>studies-with-gea/2014/11/17_visualize-midi-files.html</id><category scheme="/tags/midi.html" term="midi" label="midi"/><category scheme="/tags/gea.html" term="gea" label="gea"/><category scheme="/tags/lua.html" term="lua" label="lua"/>Lisp error in nil: (void-function htmlize-protect-string)
+</feed>
