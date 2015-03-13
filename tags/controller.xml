@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-03-13T10:01:34Z</updated>
+  <updated>2015-03-13T10:06:25Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">Controller-osc-patterns</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//blog/2010/11/05_controller-osc-patterns.html"/><updated>2010-11-05T11:04:00Z</updated><published>2010-11-05T11:04:00Z</published><id>blog/2010/11/05_controller-osc-patterns.html</id><category scheme="/tags/phd.html" term="phd" label="phd"/><category scheme="/tags/interpreter.html" term="interpreter" label="interpreter"/><category scheme="/tags/controller.html" term="controller" label="controller"/><category scheme="/tags/midi.html" term="midi" label="midi"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>
