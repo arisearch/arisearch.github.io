@@ -154,11 +154,9 @@
     <p>
 Special thanks to master <b>Michael Zoumperakis</b>!!!
 </p>
-
-<p>
-Install <b>Node.js</b> and play with Javascript!
-</p>
-
+<div id="outline-container-sec-1" class="outline-1">
+<h1 id="sec-1">Install <b>Node.js</b> and play with Javascript!</h1>
+<div class="outline-text-1" id="text-1">
 <p>
 <b>Terminal commands</b>:
 </p>
@@ -168,11 +166,11 @@ Install <b>Node.js</b> and play with Javascript!
 <li><code>nodemon randomPageCollector.js</code>
 </li>
 </ul>
-
-
-<p>
-Here is the <code>nodemon randomPageCollector.js</code> file
-</p>
+</div>
+</div>
+<div id="outline-container-sec-2" class="outline-1">
+<h1 id="sec-2">Here is the <code>nodemon randomPageCollector.js</code> file</h1>
+<div class="outline-text-1" id="text-2">
 <pre class="example">
 /*
 Create random page collector @ Berlin with Michael Zoumperakis
@@ -231,6 +229,41 @@ app.get('/', function(req, res){
     res.json(console.log('The user'));
 });
 </pre>
+</div>
+</div>
+<div id="outline-container-sec-3" class="outline-1">
+<h1 id="sec-3">HTML Code</h1>
+<div class="outline-text-1" id="text-3">
+<pre class="example">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+$(document).ready(function(){
+ $("button").click(function(){
+  alert("asdgfasdg");
+  $.get("list.json", function(data, status){
+   alert("Data: " + data + "\nStatus: " + status);
+   &lt;!--window.open(data[Math.floor(Math.random() * data.length)]);--&gt;
+  },"json");
+  alert("TTg")
+ });
+});
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;button&gt;Send an HTTP GET request to a &lt;/button&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+</div>
+</div>
+<div id="outline-container-sec-4" class="outline-1">
+<h1 id="sec-4">Links</h1>
+<div class="outline-text-1" id="text-4">
 <ul class="org-ul">
 <li><a href="https://nodejs.org/api/fs.html">https://nodejs.org/api/fs.html</a>
 </li>
@@ -239,6 +272,8 @@ app.get('/', function(req, res){
 <li><a href="http://howtonode.org/do-it-fast">http://howtonode.org/do-it-fast</a>
 </li>
 </ul>
+</div>
+</div>
 
   </div>
   

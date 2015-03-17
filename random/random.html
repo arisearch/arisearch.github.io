@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-      $("button").click(function(){
-      $.get("list.json", function(data, status){
-      <!--alert("Data: " + data + "\nStatus: " + status);-->
-      window.open(data[Math.floor(Math.random() * data.length)]);
-      },"json");
-      });
-      });
-    </script>
-  </head>
-  <body>
-    <button>03489-9857-4712-8357-12938457-194328571-9834751-948751289-357- SKJDGHLK</button>
-  </body>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+ $("button").click(function(){
+  alert("asdgfasdg");
+  $.get("list.json", function(data, status){
+   alert("Data: " + data + "\nStatus: " + status);
+   <!--window.open(data[Math.floor(Math.random() * data.length)]);-->
+  },"json");
+  alert("TTg")
+ });
+});
+</script>
+</head>
+<body>
+
+<button>Send an HTTP GET request to a </button>
+
+</body>
 </html>
