@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-03-13T10:06:35Z</updated>
+  <updated>2015-03-17T10:18:27Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
-  <entry><title type="html">About Javascript</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//javascript/2015/03/13_about-javascript.html"/><updated>2015-03-13T10:05:00Z</updated><published>2015-03-13T10:05:00Z</published><id>javascript/2015/03/13_about-javascript.html</id><category scheme="/tags/tool.html" term="tool" label="tool"/><category scheme="/tags/web-development.html" term="web@development" label="web@development"/><category scheme="/tags/javascript.html" term="javascript" label="javascript"/>Lisp error in nil: (void-function htmlize-protect-string)
+  <entry><title type="html">About Javascript</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//javascript/2015/03/17_about-javascript.html"/><updated>2015-03-17T10:17:00Z</updated><published>2015-03-17T10:17:00Z</published><id>javascript/2015/03/17_about-javascript.html</id><category scheme="/tags/tool.html" term="tool" label="tool"/><category scheme="/tags/web-development.html" term="web@development" label="web@development"/><category scheme="/tags/javascript.html" term="javascript" label="javascript"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

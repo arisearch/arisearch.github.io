@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-03-13T10:06:25Z</updated>
+  <updated>2015-03-17T10:18:15Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">Design Electronics for Augmented Ney</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//react/2014/05/11_design-electronics-for-augmented-ney.html"/><updated>2014-05-11T12:03:00Z</updated><published>2014-05-11T12:03:00Z</published><id>react/2014/05/11_design-electronics-for-augmented-ney.html</id><category scheme="/tags/fritzing.html" term="fritzing" label="fritzing"/><category scheme="/tags/react.html" term="react" label="react"/><category scheme="/tags/electronics.html" term="electronics" label="electronics"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>
