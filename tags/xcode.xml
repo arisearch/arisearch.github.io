@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-03-17T15:06:53Z</updated>
+  <updated>2015-04-03T20:17:59Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">Add icon to my app</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//gea/2014/01/21_add-icon-to-my-app.html"/><updated>2014-01-21T21:24:00Z</updated><published>2014-01-21T21:24:00Z</published><id>gea/2014/01/21_add-icon-to-my-app.html</id><category scheme="/tags/xcode.html" term="xcode" label="xcode"/><category scheme="/tags/gea.html" term="gea" label="gea"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>
