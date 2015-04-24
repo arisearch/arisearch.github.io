@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-04-03T20:17:46Z</updated>
+  <updated>2015-04-24T16:46:47Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">Circa: A Dataflow-Based Language for Live Coding</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//blog/2015/03/01_circa-a-dataflow-based-language-for-live-coding.html"/><updated>2015-03-01T19:35:00Z</updated><published>2015-03-01T19:35:00Z</published><id>blog/2015/03/01_circa-a-dataflow-based-language-for-live-coding.html</id><category scheme="/tags/circa.html" term="circa" label="circa"/><category scheme="/tags/live-visuals.html" term="live@visuals" label="live@visuals"/><category scheme="/tags/live-coding.html" term="live@coding" label="live@coding"/><category scheme="/tags/research.html" term="research" label="research"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

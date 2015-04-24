@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-04-03T20:17:53Z</updated>
+  <updated>2015-04-24T16:46:54Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">ofxSuperCollider</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//addons/2015/01/30_ofxsupercollider.html"/><updated>2015-01-30T14:40:00Z</updated><published>2015-01-30T14:40:00Z</published><id>addons/2015/01/30_ofxsupercollider.html</id><category scheme="/tags/supercollider.html" term="supercollider" label="supercollider"/><category scheme="/tags/openframeworks.html" term="openframeworks" label="openframeworks"/><category scheme="/tags/addons.html" term="addons" label="addons"/><category scheme="/tags/react.html" term="react" label="react"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

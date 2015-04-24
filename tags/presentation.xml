@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-04-03T20:17:54Z</updated>
+  <updated>2015-04-24T16:46:55Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">Data Sonification and Visulization with openFrameworks and SuperCollider</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//presentations/2014/02/08_data-sonification-and-visulization-with-openframeworks-and-supercollider.html"/><updated>2014-02-08T08:56:00Z</updated><published>2014-02-08T08:56:00Z</published><id>presentations/2014/02/08_data-sonification-and-visulization-with-openframeworks-and-supercollider.html</id><category scheme="/tags/presentation.html" term="presentation" label="presentation"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

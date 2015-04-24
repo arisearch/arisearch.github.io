@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-04-03T20:17:45Z</updated>
+  <updated>2015-04-24T16:46:46Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">AVA820 - Algorithmic Sound Synthesis</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//avarts/2013/12/08_ava820-algorithmic-sound-synthesis.html"/><updated>2013-12-08T21:20:00Z</updated><published>2013-12-08T21:20:00Z</published><id>avarts/2013/12/08_ava820-algorithmic-sound-synthesis.html</id><category scheme="/tags/avarts.html" term="avarts" label="avarts"/><category scheme="/tags/classes.html" term="classes" label="classes"/><category scheme="/tags/ava820.html" term="ava820" label="ava820"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>
