@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-04-24T16:47:00Z</updated>
+  <updated>2015-05-07T11:53:09Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">Open Office</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//office/2015/02/22_open-office.html"/><updated>2015-02-22T13:37:00Z</updated><published>2015-02-22T13:37:00Z</published><id>office/2015/02/22_open-office.html</id><category scheme="/tags/open-office.html" term="open_office" label="open_office"/><category scheme="/tags/zotero.html" term="zotero" label="zotero"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

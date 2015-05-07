@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-04-24T16:46:45Z</updated>
+  <updated>2015-05-07T11:52:56Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">Air pressure sensor</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//react/2014/05/06_air-pressure-sensor.html"/><updated>2014-05-06T19:40:00Z</updated><published>2014-05-06T19:40:00Z</published><id>react/2014/05/06_air-pressure-sensor.html</id><category scheme="/tags/react.html" term="react" label="react"/><category scheme="/tags/air-pressure.html" term="air@pressure" label="air@pressure"/><category scheme="/tags/sensor.html" term="sensor" label="sensor"/><category scheme="/tags/arduino.html" term="arduino" label="arduino"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-04-24T16:46:55Z</updated>
+  <updated>2015-05-07T11:53:04Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">Stem Cell Orchestra Project</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//stem-cell-orchestra/2015/03/05_stem-cell-orchestra-project.html"/><updated>2015-03-05T18:53:00Z</updated><published>2015-03-05T18:53:00Z</published><id>stem-cell-orchestra/2015/03/05_stem-cell-orchestra-project.html</id><category scheme="/tags/stem.html" term="stem" label="stem"/><category scheme="/tags/performance.html" term="performance" label="performance"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

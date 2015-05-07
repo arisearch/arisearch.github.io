@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-04-24T16:46:56Z</updated>
+  <updated>2015-05-07T11:53:05Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">Infrared sensor example with Arduino, Processing, SuperCollider</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//electronics/2015/02/22_infrared-sensor-example-with-arduino-processing-supercollider.html"/><updated>2015-02-22T13:34:00Z</updated><published>2015-02-22T13:34:00Z</published><id>electronics/2015/02/22_infrared-sensor-example-with-arduino-processing-supercollider.html</id><category scheme="/tags/arduino.html" term="arduino" label="arduino"/><category scheme="/tags/supercollider.html" term="supercollider" label="supercollider"/><category scheme="/tags/processing.html" term="processing" label="processing"/><category scheme="/tags/sensor.html" term="sensor" label="sensor"/><category scheme="/tags/infrared.html" term="infrared" label="infrared"/><category scheme="/tags/eastn.html" term="eastn" label="eastn"/><category scheme="/tags/cardiff.html" term="cardiff" label="cardiff"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>
