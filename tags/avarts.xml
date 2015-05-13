@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-05-07T11:52:57Z</updated>
+  <updated>2015-05-13T13:13:15Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">Avarts Festival 2014: "Μεταμορφώσεις της σωματικότητας: Τέχνη - Σώμα - Τεχνολογία"</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//publications/2014/04/10_avarts-festival-2014-μεταμορφωσεις-της-σωματικοτητας-τεχνη-σωμα-τεχνολογια.html"/><updated>2014-04-10T13:19:00Z</updated><published>2014-04-10T13:19:00Z</published><id>publications/2014/04/10_avarts-festival-2014-μεταμορφωσεις-της-σωματικοτητας-τεχνη-σωμα-τεχνολογια.html</id><category scheme="/tags/avarts.html" term="avarts" label="avarts"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

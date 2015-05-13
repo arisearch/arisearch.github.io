@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-05-07T11:53:01Z</updated>
+  <updated>2015-05-13T13:13:20Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">jQuery & Ajax</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//software/2015/03/12_jquery-ajax.html"/><updated>2015-03-12T22:29:00Z</updated><published>2015-03-12T22:29:00Z</published><id>software/2015/03/12_jquery-ajax.html</id><category scheme="/tags/jquery.html" term="jquery" label="jquery"/><category scheme="/tags/ajax.html" term="ajax" label="ajax"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>
