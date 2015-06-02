@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-05-24T15:23:29Z</updated>
+  <updated>2015-06-02T10:13:17Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">Computer Vision to sonificate Live Visuals</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//gea/2014/01/21_computer-vision-to-sonificate-live-visuals.html"/><updated>2014-01-21T15:33:00Z</updated><published>2014-01-21T15:33:00Z</published><id>gea/2014/01/21_computer-vision-to-sonificate-live-visuals.html</id><category scheme="/tags/computer-vision.html" term="computer@vision" label="computer@vision"/><category scheme="/tags/opencv.html" term="opencv" label="opencv"/><category scheme="/tags/gea.html" term="gea" label="gea"/><category scheme="/tags/live-visuals.html" term="live@visuals" label="live@visuals"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>
