@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-06-02T10:13:28Z</updated>
+  <updated>2015-11-15T13:23:21Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">Una Ciudad Sonada</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//installations/2011/09/08_una-ciudad-sonada.html"/><updated>2011-09-08T18:52:00Z</updated><published>2011-09-08T18:52:00Z</published><id>installations/2011/09/08_una-ciudad-sonada.html</id><category scheme="/tags/installation.html" term="installation" label="installation"/><category scheme="/tags/expo.html" term="expo" label="expo"/><category scheme="/tags/theater.html" term="theater" label="theater"/><category scheme="/tags/mapping-projection.html" term="mapping@projection" label="mapping@projection"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

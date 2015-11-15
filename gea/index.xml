@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-06-02T10:13:38Z</updated>
+  <updated>2015-11-15T13:23:28Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
-  <entry><title type="html">A Live Visual Coder Perspective</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//a-live-visual-coder-perspective/2015/06/02_a-live-visual-coder-perspective.html"/><updated>2015-06-02T10:11:00Z</updated><published>2015-06-02T10:11:00Z</published><id>a-live-visual-coder-perspective/2015/06/02_a-live-visual-coder-perspective.html</id>Lisp error in nil: (void-function htmlize-protect-string)
+  <entry><title type="html">A Live Visual Coder Perspective</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//gea/2015/11/15_a-live-visual-coder-perspective.html"/><updated>2015-11-15T13:21:00Z</updated><published>2015-11-15T13:21:00Z</published><id>gea/2015/11/15_a-live-visual-coder-perspective.html</id><category scheme="/tags/gea.html" term="gea" label="gea"/><category scheme="/tags/twitter.html" term="twitter" label="twitter"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>
