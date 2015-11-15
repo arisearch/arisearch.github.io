@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-11-15T13:23:20Z</updated>
+  <updated>2015-11-15T13:28:22Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">Residency at Cardiff</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//augmented-kaval/2014/03/21_residency-at-cardiff.html"/><updated>2014-03-21T18:51:00Z</updated><published>2014-03-21T18:51:00Z</published><id>augmented-kaval/2014/03/21_residency-at-cardiff.html</id><category scheme="/tags/eastn.html" term="eastn" label="eastn"/><category scheme="/tags/residency.html" term="residency" label="residency"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>
