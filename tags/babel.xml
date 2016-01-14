@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-11-15T13:28:12Z</updated>
+  <updated>2016-01-14T17:03:38Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">Compile SuperCollider inside org-mode</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//blog/2013/10/21_compile-supercollider-inside-org-mode.html"/><updated>2013-10-21T13:25:00Z</updated><published>2013-10-21T13:25:00Z</published><id>blog/2013/10/21_compile-supercollider-inside-org-mode.html</id><category scheme="/tags/babel.html" term="babel" label="babel"/><category scheme="/tags/supercollider.html" term="supercollider" label="supercollider"/><category scheme="/tags/orgmode.html" term="orgmode" label="orgmode"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

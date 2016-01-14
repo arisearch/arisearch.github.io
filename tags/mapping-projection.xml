@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2015-11-15T13:28:18Z</updated>
+  <updated>2016-01-14T17:03:45Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">Mapping Projection CutMotion</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//augmented-kaval/2014/07/29_mapping-projection-cutmotion.html"/><updated>2014-07-29T18:59:00Z</updated><published>2014-07-29T18:59:00Z</published><id>augmented-kaval/2014/07/29_mapping-projection-cutmotion.html</id><category scheme="/tags/mapping-projection.html" term="mapping@projection" label="mapping@projection"/><category scheme="/tags/openframeworks.html" term="openframeworks" label="openframeworks"/><category scheme="/tags/supercollider.html" term="supercollider" label="supercollider"/><category scheme="/tags/eastn.html" term="eastn" label="eastn"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>
