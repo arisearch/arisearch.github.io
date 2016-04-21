@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>aRisearch</title>
+  <title></title>
   <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
   <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2016-01-15T17:49:39Z</updated>
+  <updated>2016-04-21T18:46:20Z</updated>
   <id>http://users.ionio.gr/~aribezas/index.xml</id>
   <entry><title type="html">The God Article - documentary</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//react/2015/03/01_the-god-article-documentary.html"/><updated>2015-03-01T21:06:00Z</updated><published>2015-03-01T21:06:00Z</published><id>react/2015/03/01_the-god-article-documentary.html</id><category scheme="/tags/react.html" term="react" label="react"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>
