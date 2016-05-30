@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8"/>
+    <title>ofxLua syntax</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="generator" content="o-blog v2.0"/>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+	  <span class="sr-only">Toggle navigation</span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	</button>
+      </div>
+      <a class="navbar-brand" href="../../../index.html">aRisearch</a>
+      <div class="collapse navbar-collapse">
+	<ul class="org-ul">
+<li><a href="#">Exposition</a>
+<ul class="org-ul">
+<li><a href="http://arisearch.github.io/interactive-sketches.html">Interactive Sketches</a></li>
+<li><a href="http://arisearch.github.io/tumblr.html">Visual Art at igoumeninja.tumblr.com</a></li>
+<li><a href="http://arisearch.github.io/tags/performance.html">Performances</a></li>
+<li><a href="http://arisearch.github.io/tags/publication.html">Publications</a></li>
+<li><a href="http://arisearch.github.io/tags/installation.html">Installations</a></li>
+</ul></li>
+
+<li><a href="#">Projects</a>
+
+<ul class="org-ul">
+<li><a href="../../../tags/react.html">REACT - Object Snadbox - The God Article</a></li>
+</ul></li>
+
+<li><a href="#">Gea</a>
+<ul class="org-ul">
+<li><a href="../../../gea.html">About</a></li>
+<li><a href="../../../system-setup.html">System setup</a></li>
+<li><a href="../../../first-steps.html">First steps</a></li>
+<li><a href="../../../gea-website/2013/11/07_ofxlua-syntax.html">ofxLua syntax</a></li>
+<li><a href="../../../gea-website/2013/11/07_ofxlua-syntax.html">ofxLua syntax</a></li>
+<li><a href="../../../gea-website/2013/11/07_ofxlua-syntax.html">ofxLua syntax</a></li>
+<li><a href="../../../gea-website/2013/11/07_ofxlua-syntax.html">ofxLua syntax</a></li>
+<li><a href="../../../gea-website/2013/11/07_ofxlua-syntax.html">ofxLua syntax</a></li>
+</ul></li>
+
+<li><a href="#"><i class="icon-file icon-white"></i> Blog</a>
+<ul class="org-ul">
+<li><a href="../../../blog/2016/05/27_ελευσινα-πολιτιστικη-πρωτευουσα-2021.html">Ελευσίνα - Πολιτιστική Πρωτευουσα 2021</a></li>
+<li><a href="../../../blog/2016/05/11_read-this-article-about-vjing.html">Read this article about VJing</a></li>
+<li><a href="../../../blog/2016/01/12_αλληλεπιδραση-και-διεπαφες-υπολογιστικης-φυσικης.html">Αλληλεπιδραση και διεπαφες υπολογιστικης φυσικης</a></li>
+<li><a href="../../../blog/2015/09/19_start-daily-digital-art-study.html">Start daily digital art study</a></li>
+<li><a href="../../../blog/2015/03/01_circa-a-dataflow-based-language-for-live-coding.html">Circa: A Dataflow-Based Language for Live Coding</a></li>
+<li><a href="../../../blog/2015/03/01_supercollider-and-tablas-jam.html">SuperCollider and Tablas Jam</a></li>
+<li><a href="../../../blog/2015/03/01_reading-the-article-a-history-of-live-programming.html">Reading the article: /A History of Live Programming/</a></li>
+<li><a href="../../../blog/2014/11/06_music-notation-supercollider.html">Music Notation - SuperCollider</a></li>
+</ul></li>
+
+<li><a href="#">Categories</a>
+<ul class="org-ul">
+<li><a href="http://arisearch.github.io/tags/phd.html">phD</a></li>
+<li><a href="http://arisearch.github.io/tags/gea.html">Gea</a></li>
+<li><a href="http://arisearch.github.io/tags/tool.html">Tools</a></li>
+</ul></li>
+
+<li><a href="../../../tags.html"><i class="icon-tags icon-white"></i> Tags</a></li>
+
+<li><a href="../../../archives.html"><i class="icon-list icon-white"></i> Archive</a></li>
+
+<li><a href="../../../search.html">Search</a></li>
+
+<li><a href="../../../contact.html">Contact</a></li>
+</ul>
+
+      </div>
+    </nav>
+
+    <div class="subnav subnav-fixed visible-desktop">
+      <div class="container">
+	<ul class="breadcrumb">
+  <li><a href="../../../index.html">Home</a> <span class="divider"></span></li>
+  <li><a href="../../../gea-website/index.html">Gea Website</a> <span class="divider"></span></li><li><a href="../../../gea-website/2013/index.html">2013</a> <span class="divider"></span></li><li><a href="../../../gea-website/2013/11/index.html">11</a> <span class="divider"></span></li><li>ofxLua syntax</li>
+  </ul>
+
+      </div>
+    </div>
+    <div id="page" class="container">
+
+  <div class="article">
+  <header class="article-header">
+
+
+
+    <div class="jumbotron">
+      <div class="page-header">
+	<time date="2013-11-07T22:48:00Z">
+	  <div>
+	    <span class="day">11</span>
+	    <span class="month"><a href="../../../gea-website/2013/11/index.html">Nov</a>
+	    </span>
+	    <span class="year"><a href="../../../gea-website/2013/index.html">2013</a></span>
+	  </div>
+	  <h1>ofxLua syntax</h1>
+	</time>
+      </div>
+      <nav>
+	<ul class="pager">
+	</ul>
+      </nav>
+    </div>
+
+  </header>
+  <div class="article-content">
+    <p>
+Το συντακτικό μπορούμε να το διαβάσουμε απο το πρότυπο <b>LuaWrapper.h</b>. Σε γενικές γραμμές χρησιμοποιούμε το πρόθεμα <code>of</code> και του στέλνουμε μήνυμα με το σύμβολο <code>.</code>.
+Παράδειγμα, αντί <code>ofBackground(0)</code> γράφουμε of.background(0)=.
+</p>
+
+<p>
+Για να εισάγουμε ενα καινούργιο περιτύλιγμα σε μια function του openFrameworks εισάγουμε κώδικα μέσα στο <i>module</i> όπως τον κώδικα που φαίνεται στο παράδειγμα παρακάτω:
+</p>
+
+<p>
+Note from danomatika (<a href="https://github.com/danomatika/ofxLua/issues/12">https://github.com/danomatika/ofxLua/issues/12</a>)
+</p>
+<p class="verse">
+Also, it's very important to note the colon : with app:getAmp(). The colon is used when calling a member function on a class instance while the period . is used when accessing a property (app.amp) or calling a global function in a module (gea.getApp(), where "gea" is the module name). Coming from C++, that still trips me up now and then.<br  />
+</p>
+
+<pre class="example">
+/*
+ * Copyright (c) 2011,2012 Dan Wilcox &lt;danomatika@gmail.com&gt;
+ *
+ * BSD Simplified License.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ *
+ * See https://github.com/danomatika/ofxLua for documentation
+ *
+ */
+#pragma once
+
+#include "ofMain.h"
+#include "ofxOscLua.h"
+#include "ofxLua.h"
+
+class ofWrapper {
+
+    public:
+
+        /// static function called when binding
+        static void bind(ofxLua&amp; lua) {
+
+            using namespace luabind;
+
+            /// example OpenFrameworks api wrapper
+            ///
+            /// note: this is not the *entire* api
+            ///
+            module(lua, "of")
+            [
+
+             // Aris Bezas 11:53 AM May 23, 2013
+            def("backgroundAuto", (void(*)(bool)) &amp;ofSetBackgroundAuto),
+
+             class_&lt;ofxOscLua&gt;("osc")
+             .def(constructor&lt;&gt;())
+             .def("setup", (void(ofxOscLua::*)()) &amp;ofxOscLua::setup)
+             .def("update", (void(ofxOscLua::*)()) &amp;ofxOscLua::update)
+             .def("resp", (void(ofxOscLua::*)(string)) &amp;ofxOscLua::resp)
+             .def("var", (float(ofxOscLua::*)(string)) &amp;ofxOscLua::var),
+
+             // Activate this if you want to use Midi
+//             class_&lt;ofxMidiLua&gt;("midi")
+//                .def(constructor&lt;&gt;())
+//                .def("setup", (void(ofxMidiLua::*)()) &amp;ofxMidiLua::setup)
+//                .def("update", (void(ofxMidiLua::*)()) &amp;ofxMidiLua::update)
+//                .def("init", (void(ofxMidiLua::*)(int, float)) &amp;ofxMidiLua::init)
+
+
+
+                ///////////////////////////////
+                /// \section Graphics
+
+                /// openGL wrappers
+                def("pushMatrix", &amp;ofPushMatrix),
+                def("popMatrix", &amp;ofPopMatrix),
+                def("translate", (void(*)(float,float,float)) &amp;ofTranslate),
+                def("scale", &amp;ofScale),
+                def("rotate", (void(*)(float,float,float,float)) &amp;ofRotate),
+                def("rotateX", &amp;ofRotateX),
+                def("rotateY", &amp;ofRotateY),
+                def("rotateZ", &amp;ofRotateZ),
+                def("rotate", (void(*)(float)) &amp;ofRotate),
+
+                /// drawing modes
+                def("setCircleResolution", &amp;ofSetCircleResolution),
+                def("setCurveResolution", &amp;ofSetCurveResolution),
+
+                /// drawing options
+                def("noFill", &amp;ofNoFill),
+                def("fill", &amp;ofFill),
+                def("setLineWidth", &amp;ofSetLineWidth),
+
+                /// color options
+                def("setColor", (void(*)(int)) &amp;ofSetColor),
+                def("setColor", (void(*)(int,int,int)) &amp;ofSetColor),
+                def("setColor", (void(*)(int,int,int,int)) &amp;ofSetColor),
+                def("setHexColor", (void(*)(int)) &amp;ofSetHexColor),
+
+                /// blending
+                //def("enableBlendMode", &amp;ofEnableBlendMode),
+                //def("disableBlendMode", &amp;ofDisableBlendMode),
+
+                /// transparency
+                def("enableAlphaBlending", &amp;ofEnableAlphaBlending),
+                def("disableAlphaBlending", &amp;ofDisableAlphaBlending),
+
+                /// smooth
+                def("enableSmoothing", &amp;ofEnableSmoothing),
+                def("disableSmoothing", &amp;ofDisableSmoothing),
+
+                /// drawing style
+                def("setPolyMode", &amp;ofSetPolyMode),
+
+                /// background
+                def("background",   (void(*)(int)) &amp;background),
+                def("background",   (void(*)(int,int)) &amp;ofBackground),
+                def("background",   (void(*)(int,int,int)) &amp;background),
+                def("background",   (void(*)(int,int,int,int)) &amp;ofBackground),
+                def("clear",        (void(*)(float,float,float,float)) &amp;ofClear),
+                def("clearAlpha",   &amp;ofClearAlpha),
+
+                /// geometry
+                def("line",     (void(*)(float,float,float,float)) &amp;ofLine),
+                def("rect",     (void(*)(float,float,float,float)) &amp;ofRect),
+                def("triangle", (void(*)(float,float,float,float,float,float)) &amp;ofTriangle),
+                def("circle",   (void(*)(float,float,float)) &amp;ofCircle),
+                def("ellipse",  (void(*)(float,float,float,float)) &amp;ofEllipse),
+                def("curve",    (void(*)(float,float,float,float,float,float,float,float)) &amp;ofCurve),
+                def("bezier",   (void(*)(float,float,float,float,float,float,float,float)) &amp;ofBezier),
+
+                /// polygons
+                def("beginShape", &amp;ofBeginShape),
+                def("vertex",   (void(*)(float,float)) &amp;ofVertex),
+                def("curveVertex", (void(*)(float,float)) &amp;ofCurveVertex),
+                def("bezierVertex", (void(*)(float,float,float,float,float,float)) &amp;ofBezierVertex),
+                def("endShape", &amp;ofEndShape),
+                def("nextContour", &amp;ofNextContour),
+
+                /// bitmapped text
+                def("drawBitmapString", (void(*)(string,float,float)) &amp;ofDrawBitmapString),
+
+                ///////////////////////////////
+                /// \section PolyLine
+
+                class_&lt;ofPolyline&gt;("polyline")
+                    .def(constructor&lt;&gt;())
+                    .enum_("windingMode")
+                    [
+                        value("WINDING_ODD", OF_POLY_WINDING_ODD),
+                        value("WINDING_NONZERO", OF_POLY_WINDING_NONZERO),
+                        value("WINDING_POSITIVE", OF_POLY_WINDING_POSITIVE),
+                        value("WINDING_NEGATIVE", OF_POLY_WINDING_NEGATIVE),
+                        value("WINDING_ABS_GEQ_TWO", OF_POLY_WINDING_ABS_GEQ_TWO)
+                    ],
+
+                ///////////////////////////////
+                /// \section Rectangle
+
+                class_&lt;ofRectangle&gt;("rectangle")
+                    .def(constructor&lt;&gt;())
+                    .def(constructor&lt;const ofRectangle&amp;&gt;())
+                    .def(constructor&lt;float,float,float,float&gt;())
+                    .def("set", (void(ofRectangle::*)(float,float,float,float)) &amp;ofRectangle::set)
+                    .def("set", (void(ofRectangle::*)(const ofRectangle&amp;)) &amp;ofRectangle::set)
+                    .def("setFromCenter", (void(ofRectangle::*)(float,float,float,float)) &amp;ofRectangle::setFromCenter)
+                    //.def("inside", (void(ofRectangle::*)(float,float)) &amp;ofRectangle::inside)
+                    .property("x", &amp;ofRectangle::getX, &amp;ofRectangle::setX)
+                    .property("y", &amp;ofRectangle::getY, &amp;ofRectangle::setY)
+                    .def_readonly("width", &amp;ofRectangle::width)
+                    .def_readonly("height", &amp;ofRectangle::height),
+
+                ///////////////////////////////
+                /// \section Color
+
+                class_&lt;ofColor&gt;("color")
+                    .def(constructor&lt;&gt;())
+                    .def(constructor&lt;float,float,float,float&gt;())
+                    .def(constructor&lt;float,float,float&gt;())
+                    .def(constructor&lt;float,float&gt;())
+                    .def(constructor&lt;float&gt;())
+                    .def("set", (void(ofColor::*)(float,float,float,float)) &amp;ofColor::set)
+                    //.def("set", (void(ofColor::*)(float,float,float)) &amp;ofColor::set3)
+                    .def("set", (void(ofColor::*)(float,float)) &amp;ofColor::set)
+                    //.def("set", (void(Color::*)(float)) &amp;ofColor::set1)
+                    .def("setHex", &amp;ofColor::setHex)
+                    .def("getHex", &amp;ofColor::getHex)
+                    .def("getHue", &amp;ofColor::getHue)
+                    .def("getSaturation", &amp;ofColor::getSaturation)
+                    .def("getBrightness", &amp;ofColor::getBrightness)
+                    .def("getLightness", &amp;ofColor::getLightness)
+                    .def("setHue", &amp;ofColor::setHue)
+                    .def("setSaturation", &amp;ofColor::setSaturation)
+                    .def("setBrightness", &amp;ofColor::setBrightness),
+
+                ///////////////////////////////
+                /// \section Pixels
+
+                class_&lt;ofPixels&gt;("pixels")
+                    .def(constructor&lt;&gt;())
+                    .def("allocate", (void(ofPixels::*)(int,int,int)) &amp;ofPixels::allocate)
+                    .def("allocate", (void(ofPixels::*)(int,int,ofPixelFormat)) &amp;ofPixels::allocate)
+                    .def("allocate", (void(ofPixels::*)(int,int,ofImageType)) &amp;ofPixels::allocate)
+                    .def("set", (void(ofPixels::*)(unsigned char)) &amp;ofPixels::set)
+                    .def("set", (void(ofPixels::*)(int,unsigned char)) &amp;ofPixels::set)
+                    .def("swapRgb", &amp;ofPixels::swapRgb)
+                    .def("clear", &amp;ofPixels::clear)
+                    .def("getColor", &amp;ofPixels::getColor)
+                    .def("setColor", &amp;ofPixels::setColor)
+                    .def("getPixelIndex", &amp;ofPixels::getPixelIndex)
+                    .def("getPixel", &amp;getPixel)
+                    .def("setPixel", &amp;setPixel)
+                    .def("isAllocated", &amp;ofPixels::isAllocated)
+                    .def("getWidth", &amp;ofPixels::getWidth)
+                    .def("getHeight", &amp;ofPixels::getHeight)
+                    .def("getImageType", &amp;ofPixels::getImageType)
+                    .def("size", &amp;ofPixels::size)
+                    .enum_("format")
+                    [
+                        value("MONO", OF_PIXELS_MONO),
+                        value("RGB", OF_PIXELS_RGB),
+                        value("RGBA", OF_PIXELS_RGBA),
+                        value("BGRA", OF_PIXELS_BGRA),
+                        value("RGB565", OF_PIXELS_RGB565)
+                    ],
+
+                ///////////////////////////////
+                /// \section Image
+
+                class_&lt;ofImage&gt;("image")
+                    .def(constructor&lt;&gt;())
+                    .def(constructor&lt;const string&amp;&gt;())
+                    .def("allocate", &amp;ofImage::allocate)
+                    .def("clear", &amp;ofImage::clear)
+                    .def("loadImage", (bool(ofImage::*)(string)) &amp;ofImage::loadImage)
+                    .def("getPixels", &amp;ofImage::getPixelsRef)
+                    .def("setImageType", &amp;ofImage::setImageType)
+                    .def("getColor", &amp;ofImage::getColor)
+                    .def("setColor", &amp;ofImage::setColor)
+                    .def("resize", &amp;ofImage::resize)
+                    .def("update", &amp;ofImage::update)
+                    .def("draw", (void(ofImage::*)(float,float)) &amp;ofImage::draw)
+                    .def("draw", (void(ofImage::*)(float,float,float,float)) &amp;ofImage::draw)
+                    .def("getHeight", &amp;ofImage::getHeight)
+                    .def("getWidth", &amp;ofImage::getWidth)
+                    .def("allocated", &amp;ofImage::bAllocated)
+                    .def_readonly("width", &amp;ofImage::width)
+                    .def_readonly("height", &amp;ofImage::height)
+                    .def_readonly("bpp", &amp;ofImage::bpp)
+                    .enum_("imageType")
+                    [
+                        value("GRAYSCALE", OF_IMAGE_GRAYSCALE),
+                        value("COLOR", OF_IMAGE_COLOR),
+                        value("COLOR_ALPHA", OF_IMAGE_COLOR_ALPHA),
+                        value("UNDEFINED", OF_IMAGE_UNDEFINED)
+                    ],
+
+                ///////////////////////////////
+                /// \section Font
+
+                class_&lt;ofTrueTypeFont&gt;("font")
+                    .def(constructor&lt;&gt;())
+                    .def("loadFont", &amp;loadFont2)
+                    .def("loadFont", &amp;loadFont4)
+                    .def("loadFont", (void(ofTrueTypeFont::*)(string,int,bool,bool,bool,float)) &amp;ofTrueTypeFont::loadFont)
+                    .def("isLoaded", &amp;ofTrueTypeFont::isLoaded)
+                    .def("getLineHeight", &amp;ofTrueTypeFont::getLineHeight)
+                    .def("setLineHeight", &amp;ofTrueTypeFont::setLineHeight)
+                    .def("getLetterSpacing", &amp;ofTrueTypeFont::getLetterSpacing)
+                    .def("setLetterSpacing", &amp;ofTrueTypeFont::setLetterSpacing)
+                    .def("getSpaceSize", &amp;ofTrueTypeFont::getSpaceSize)
+                    .def("setSpaceSize", &amp;ofTrueTypeFont::setSpaceSize)
+                    .def("stringWidth", &amp;ofTrueTypeFont::stringWidth)
+                    .def("stringHeight", &amp;ofTrueTypeFont::stringHeight)
+                    .def("getStringBoundingBox", &amp;ofTrueTypeFont::getStringBoundingBox)
+                    .def("drawString", &amp;ofTrueTypeFont::drawString)
+                    .def("drawStringAsShapes", &amp;ofTrueTypeFont::drawStringAsShapes),
+
+                ///////////////////////////////
+                /// \section Math
+
+                def("random", (float(*)(float)) &amp;ofRandom),
+                def("random", (float(*)(float,float)) &amp;ofRandom),
+
+                ///////////////////////////////
+                /// \section App
+
+                /// input properties
+                def("mouseX", &amp;getMouseX),
+                def("mouseY", &amp;getMouseY),
+
+                /// exit
+                def("exit", (void(*)(void)) &amp;ofExit),
+                def("exit", (void(*)(int)) &amp;ofExit),
+
+                /// time
+                def("getFrameRate", &amp;ofGetFrameRate),
+                def("getFrameNum", &amp;ofGetFrameNum),
+                def("setFrameRate", &amp;ofSetFrameRate),
+                def("sleepMillis", &amp;ofSleepMillis),
+                def("getLastFrameTime", &amp;ofGetLastFrameTime),
+
+                /// cursor
+                def("hideCursor", &amp;ofHideCursor),
+                def("showCursor", &amp;ofShowCursor),
+
+                /// window / screen
+                def("getWindowPositionX", &amp;ofGetWindowPositionX),
+                def("getWindowPositionY", &amp;ofGetWindowPositionY),
+                def("getScreenWidth", &amp;ofGetScreenWidth),
+                def("getScreenHeight", &amp;ofGetScreenHeight),
+                def("getWindowMode", &amp;ofGetWindowMode),
+                def("getWidth", &amp;ofGetWidth),
+                def("getHeight", &amp;ofGetHeight),
+                def("getWindowWidth", &amp;ofGetWindowWidth),
+                def("getWindowHeight", &amp;ofGetWindowHeight),
+
+                def("setWindowPosition", &amp;ofSetWindowPosition),
+                def("setWindowShape", &amp;ofSetWindowShape),
+                def("setWindowTitle", &amp;ofSetWindowTitle),
+                def("enableSetupScreen", &amp;ofEnableSetupScreen),
+                def("disableSetupScreen", &amp;ofDisableSetupScreen),
+                def("setFullscreen", &amp;ofSetFullscreen),
+                def("toggleFullscreen", &amp;ofToggleFullscreen),
+
+                /// sync
+                def("setVerticalSync", &amp;ofSetVerticalSync),
+
+                ///////////////////////////////
+                /// \section Utils
+
+                def("nextPow2", &amp;ofNextPow2),
+
+                def("resetElapsedTimeCounter", &amp;ofResetElapsedTimeCounter),
+                def("getElapsedTime", &amp;ofGetElapsedTimef),
+                def("getElapsedTimeMillis", &amp;ofGetElapsedTimeMillis),
+                def("getElapsedTimeMicros", &amp;ofGetElapsedTimeMicros),
+
+                def("getSeconds", &amp;ofGetSeconds),
+                def("getMinutes", &amp;ofGetMinutes),
+                def("getHours", &amp;ofGetHours),
+
+                def("getUnixTime", &amp;ofGetUnixTime),
+
+                def("getSystemTime", &amp;ofGetSystemTime),
+                def("getSystemTimeMicros", &amp;ofGetSystemTimeMicros),
+
+                def("getTimestampString", (string(*)(void)) &amp;ofGetTimestampString),
+                def("getTimestampString", (string(*)(string)) &amp;ofGetTimestampString),
+
+                def("getYear", &amp;ofGetYear),
+                def("getMonth", &amp;ofGetMonth),
+                def("getDay", &amp;ofGetDay),
+                def("getWeekday", &amp;ofGetWeekday),
+
+                def("launchBrowser", &amp;ofLaunchBrowser)
+            ];
+
+            ///////////////////////////////
+            /// \section Add Values
+
+            /// add some constant values to the lua state
+            lua.doString("math.TWO_PI = "+ofToString(TWO_PI));
+        }
+
+        /// \section Function &amp; Object Wrappers
+
+        /// background
+        static void background(int brightness)      {ofBackground(brightness);}
+        static void background(int r, int g, int b) {ofBackground(r, g, b);}
+
+        /// ofPixels
+        static unsigned char getPixel(ofPixels* pixels, int index) {
+            return pixels-&gt;getPixels()[index];
+        }
+        static void setPixel(ofPixels* pixels, int index, unsigned char p) {
+            pixels-&gt;getPixels()[index] = p;
+        }
+
+        /// global mouse vars
+        static int getMouseX() {return ofGetAppPtr()-&gt;mouseX;}
+        static int getMouseY() {return ofGetAppPtr()-&gt;mouseY;}
+
+        /// ofTrueTypeFont
+        static void loadFont2(ofTrueTypeFont* font, string filename, int fontsize) {
+            font-&gt;loadFont(filename, fontsize);
+        }
+        static void loadFont4(ofTrueTypeFont* font, string filename, int fontsize, bool _bAntiAliased, bool _bFullCharacterSet) {
+            font-&gt;loadFont(filename, fontsize, _bAntiAliased, _bFullCharacterSet);
+        }
+};
+</pre>
+
+  </div>
+
+  <footer class="well article-footer">
+    Posted on <time datetime="2013-11-07T22:48:00Z"> Thursday November, 07 2013 at 22:48:00</time>.
+    <nav class="tag-cloud">
+      <h1><i class="icon-tags"></i> related tags</h1>
+      <ul>
+	<li class="label label-default small"><a href="../../../tags/lua.html">lua</a></li><li class="label label-default small"><a href="../../../tags/gea.html">gea</a></li>
+      </ul>
+    </nav>
+  </footer>
+  </div>
+  <div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//toxoriopalio.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+      </div>
+      <div id="footer">
+	<div class="container">
+	  <div class="row">
+	    <nav class="col-md-3">
+	      <h1>About</h1>
+	      <!-- about -->
+	      <p>
+Aris Bezas is a creative coder mechanical engineer and phD candidate in Ionian University at AVARTS department with topic <i>Heterogeneous System for Live Visuals with the use Dynamic Algorithmic Score</i>.
+</p>
+
+<p>
+Ο Άρης Μπέζας είναι <i>μηχανολόγος μηχανικός</i> και ασχολείται με τον δημιουργικό προγραμματισμό εκπονόντας παράλληλα και τη διδακτορική του διατριβή στο Τμήμα Τεχνών Ήχου και Εικόνας του Ιονίου Πανεπιστημίου.
+</p>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10773558-17', 'ionio.gr');
+  ga('send', 'pageview');
+
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+  (function() {
+    var shr = document.createElement('script');
+    shr.setAttribute('data-cfasync', 'false');
+    shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+    shr.type = 'text/javascript'; shr.async = 'true';
+    shr.onload = shr.onreadystatechange = function() {
+      var rs = this.readyState;
+      if (rs && rs != 'complete' && rs != 'loaded') return;
+      var site_id = 'a33d0226efd189dfef1817da0dd41c90';
+      try { Shareaholic.init(site_id); } catch (e) {}
+    };
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(shr, s);
+  })();
+//]]>
+</script>
+
+	      <!-- /about -->
+	    </nav>
+	    <nav id="links" class="col-md-3">
+	      <h1>Links</h1>
+	      <!-- Navigation Footer -->
+	      <ul class="org-ul">
+<li><a href="../../../index.html"><i class="icon-home icon-white"></i> Home</a></li>
+
+<li><a href="../../../blog/2016/05/27_ελευσινα-πολιτιστικη-πρωτευουσα-2021.html"><i class="icon-file icon-white"></i> Blog</a></li>
+
+<li><a href="../../../tags.html"><i class="icon-tags icon-white"></i> Tags</a></li>
+
+<li><a href="../../../archives.html"><i class="icon-list icon-white"></i> Archives</a></li>
+
+<li><a href="../../../index.xml"><i class="icon-rss icon-white"></i> RSS</a></li>
+</ul>
+
+	      <!-- Navigation Footer -->
+	    </nav>
+	    <nav id="archives" class="col-md-3">
+	      <h1><a href="../../../archives.html">Archives</a></h1>
+	      <nav id="archives">
+  <ul>
+    <li><a href="../../../artistic-visual-art/2016/05/30_labanitsa.html">Laban_itsa</a></li> <li><a href="../../../blog/2016/05/27_ελευσινα-πολιτιστικη-πρωτευουσα-2021.html">Ελευσίνα - Πολιτιστική Πρωτευουσα 2021</a></li> <li><a href="../../../blog/2016/05/11_read-this-article-about-vjing.html">Read this article about VJing</a></li> <li><a href="../../../software/2016/01/14_worp.html">Worp</a></li> <li><a href="../../../blog/2016/01/12_αλληλεπιδραση-και-διεπαφες-υπολογιστικης-φυσικης.html">Αλληλεπιδραση και διεπαφες υπολογιστικης φυσικης</a></li> <li><a href="../../../emacs/2015/11/27_emacs-manual-personal.html">Emacs manual (personal)</a></li> <li><a href="../../../gea-phd/2015/11/16_prepare-the-publication-for-gea.html">Prepare the publication for GEA</a></li> <li><a href="../../../gea-phd/2015/11/15_geatwitter.html">GeaTwitter</a></li> <li><a href="../../../eastn/2015/10/15_augmented-kaval.html">Augmented Kaval</a></li> <li><a href="../../../blog/2015/09/19_start-daily-digital-art-study.html">Start daily digital art study</a></li> <li><a href="../../../gea-phd/2015/07/13_lawson-2015-performative-codestrategies-for-live-coding-graphics.html">Lawson 2015  - Performative Code_Strategies for Live Coding Graphics</a></li> <li><a href="../../../work-for-more-god-article/2015/05/24_working-on-the-god-article-2015-05-22-fri.html">Working on The God Article [2015-05-22 Fri]</a></li> <li><a href="../../../work-for-more-god-article/2015/05/15_working-on-the-god-article-2015-05-15-fri.html">Working on The God Article [2015-05-15 Fri]</a></li> <li><a href="../../../project/2015/05/13_stem-cell-orchestra.html">Stem Cell Orchestra</a></li> <li><a href="../../../work-for-more-god-article/2015/05/07_working-on-the-god-article-2015-05-07-thu.html">Working on The God Article [2015-05-07 Thu]</a></li> <li><a href="../../../software/2015/04/22_ardour.html">Ardour</a></li> <li><a href="../../../work-for-more-god-article/2015/04/03_working-on-the-god-article-2015-04-03-fri.html">Working on The God Article [2015-04-03 Fri]</a></li> <li><a href="../../../work-for-more-god-article/2015/04/03_working-on-the-god-article-2015-04-23-thu.html">Working on The God Article [2015-04-23 Thu]</a></li> <li><a href="../../../gea-website/2015/03/27_swig.html">SWIG</a></li> <li><a href="../../../emacs/2015/03/26_tables-spreadsheets.html">Tables & SpreadSheets</a></li> 
+  </ul>
+</nav>
+
+	    </nav>
+	    <nav class="tags col-md-3">
+	      <h1><a href="../../../tags/index.html">Tags</a></h1>
+	      <span class="ob-tagcloud" data-source="../../../tags.js" data-path-to-root="../../.."/>
+	    </nav>
+	  </div>
+	</div>
+	<div class="copyright" style="text-align: center;">
+	  <!-- copyright -->
+	  <p>
+This website created by Aris Bezas.</p>
+
+	  <p>Powered by <a href="https://github.com/renard/o-blog">o-blog</a>.</p>
+	</div>
+      </div>
+      <script type="text/javascript">
+      	var path_to_root = "../../..";
+	var ob_this_page = "gea-website/2013/11/07_ofxlua-syntax.html";
+      </script>
+      <script src="../../../style/jquery-2.1.1.min.js"></script>
+      <script src="../../../style/bootstrap/js/bootstrap.min.js"></script>
+      <script src="../../../style/o-blog-bootstrap.min.js"></script>
+      <script type="text/javascript">
+	$(document).ready(function() {
+        $("head").append([
+	'<link href="../../../style/bootstrap/css/bootstrap.css" rel="stylesheet">',
+	'<link href="../../../style/Font-Awesome/css/font-awesome.min.css" rel="stylesheet">',
+	'<link href="../../../style/tipue/css/tipuesearch.css" rel="stylesheet">',
+        '<link href="../../../style/tipue/css/tipuedrop.css" rel="stylesheet">'].join());
+	});
+     </script>
+</body>
+</html>
+

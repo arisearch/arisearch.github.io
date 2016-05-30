@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
-  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
-  <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2016-05-09T17:57:37Z</updated>
-  <id>http://users.ionio.gr/~aribezas/index.xml</id>
-  <entry><title type="html">GeaTwitter</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//gea/2015/11/15_geatwitter.html"/><updated>2015-11-15T13:21:00Z</updated><published>2015-11-15T13:21:00Z</published><id>gea/2015/11/15_geatwitter.html</id><category scheme="/tags/gea.html" term="gea" label="gea"/><category scheme="/tags/twitter.html" term="twitter" label="twitter"/>Lisp error in nil: (void-function htmlize-protect-string)
+  <title>aRisearch</title>
+  <link href="http://arisearch.github.ioindex.xml" rel="self" />
+  <link href="http://arisearch.github.io"/>
+  <updated>2016-05-30T14:55:46Z</updated>
+  <id>http://arisearch.github.ioindex.xml</id>
+  <entry><title type="html">GeaTwitter</title><author><name>nil</name></author><link href="http://arisearch.github.io/gea-phd/2015/11/15_geatwitter.html"/><updated>2015-11-15T13:21:00Z</updated><published>2015-11-15T13:21:00Z</published><id>gea-phd/2015/11/15_geatwitter.html</id><category scheme="/tags/gea.html" term="gea" label="gea"/><category scheme="/tags/twitter.html" term="twitter" label="twitter"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

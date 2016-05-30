@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
-  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
-  <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2016-05-09T17:57:40Z</updated>
-  <id>http://users.ionio.gr/~aribezas/index.xml</id>
-  <entry><title type="html">Machine Listening</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//gea/2014/06/24_machine-listening.html"/><updated>2014-06-24T11:37:00Z</updated><published>2014-06-24T11:37:00Z</published><id>gea/2014/06/24_machine-listening.html</id><category scheme="/tags/gea.html" term="gea" label="gea"/><category scheme="/tags/machine-listening.html" term="machine@listening" label="machine@listening"/>Lisp error in nil: (void-function htmlize-protect-string)
+  <title>aRisearch</title>
+  <link href="http://arisearch.github.ioindex.xml" rel="self" />
+  <link href="http://arisearch.github.io"/>
+  <updated>2016-05-30T14:55:49Z</updated>
+  <id>http://arisearch.github.ioindex.xml</id>
+  <entry><title type="html">Machine Listening</title><author><name>nil</name></author><link href="http://arisearch.github.io/gea-website/2014/06/24_machine-listening.html"/><updated>2014-06-24T11:37:00Z</updated><published>2014-06-24T11:37:00Z</published><id>gea-website/2014/06/24_machine-listening.html</id><category scheme="/tags/gea.html" term="gea" label="gea"/><category scheme="/tags/machine-listening.html" term="machine@listening" label="machine@listening"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

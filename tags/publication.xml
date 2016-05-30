@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
-  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
-  <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2016-05-09T17:57:45Z</updated>
-  <id>http://users.ionio.gr/~aribezas/index.xml</id>
-  <entry><title type="html">Greek Villages</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//installations/2013/08/23_greek-villages.html"/><updated>2013-08-23T11:17:00Z</updated><published>2013-08-23T11:17:00Z</published><id>installations/2013/08/23_greek-villages.html</id><category scheme="/tags/artwork.html" term="artwork" label="artwork"/><category scheme="/tags/expo.html" term="expo" label="expo"/><category scheme="/tags/publication.html" term="publication" label="publication"/><category scheme="/tags/installation.html" term="installation" label="installation"/><category scheme="/tags/processing.html" term="processing" label="processing"/>Lisp error in nil: (void-function htmlize-protect-string)
+  <title>aRisearch</title>
+  <link href="http://arisearch.github.ioindex.xml" rel="self" />
+  <link href="http://arisearch.github.io"/>
+  <updated>2016-05-30T14:55:52Z</updated>
+  <id>http://arisearch.github.ioindex.xml</id>
+  <entry><title type="html">Greek Villages</title><author><name>nil</name></author><link href="http://arisearch.github.io/installations/2013/08/23_greek-villages.html"/><updated>2013-08-23T11:17:00Z</updated><published>2013-08-23T11:17:00Z</published><id>installations/2013/08/23_greek-villages.html</id><category scheme="/tags/artwork.html" term="artwork" label="artwork"/><category scheme="/tags/expo.html" term="expo" label="expo"/><category scheme="/tags/publication.html" term="publication" label="publication"/><category scheme="/tags/installation.html" term="installation" label="installation"/><category scheme="/tags/processing.html" term="processing" label="processing"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

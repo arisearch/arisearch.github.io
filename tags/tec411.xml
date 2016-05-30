@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
-  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
-  <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2016-05-09T17:57:47Z</updated>
-  <id>http://users.ionio.gr/~aribezas/index.xml</id>
-  <entry><title type="html">Class 1</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//ab-classes-2015/2015/05/14_class-1.html"/><updated>2015-05-14T18:23:00Z</updated><published>2015-05-14T18:23:00Z</published><id>ab-classes-2015/2015/05/14_class-1.html</id><category scheme="/tags/tec411.html" term="tec411" label="tec411"/><category scheme="/tags/p5.html" term="p5" label="p5"/>Lisp error in nil: (void-function htmlize-protect-string)
+  <title>aRisearch</title>
+  <link href="http://arisearch.github.ioindex.xml" rel="self" />
+  <link href="http://arisearch.github.io"/>
+  <updated>2016-05-30T14:55:54Z</updated>
+  <id>http://arisearch.github.ioindex.xml</id>
+  <entry><title type="html">TEC411 - Introduction to Programming II</title><author><name>nil</name></author><link href="http://arisearch.github.io/avarts/2014/02/01_tec411-introduction-to-programming-ii.html"/><updated>2014-02-01T17:52:00Z</updated><published>2014-02-01T17:52:00Z</published><id>avarts/2014/02/01_tec411-introduction-to-programming-ii.html</id><category scheme="/tags/avarts.html" term="avarts" label="avarts"/><category scheme="/tags/tec411.html" term="tec411" label="tec411"/><category scheme="/tags/processing.html" term="processing" label="processing"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

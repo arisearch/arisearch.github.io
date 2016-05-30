@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
-  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
-  <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2016-05-09T17:57:39Z</updated>
-  <id>http://users.ionio.gr/~aribezas/index.xml</id>
-  <entry><title type="html">Music Notation - SuperCollider</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//blog/2014/11/06_music-notation-supercollider.html"/><updated>2014-11-06T14:32:00Z</updated><published>2014-11-06T14:32:00Z</published><id>blog/2014/11/06_music-notation-supercollider.html</id><category scheme="/tags/music-notation.html" term="music_notation" label="music_notation"/><category scheme="/tags/supercollider.html" term="supercollider" label="supercollider"/><category scheme="/tags/lilypond.html" term="lilypond" label="lilypond"/>Lisp error in nil: (void-function htmlize-protect-string)
+  <title>aRisearch</title>
+  <link href="http://arisearch.github.ioindex.xml" rel="self" />
+  <link href="http://arisearch.github.io"/>
+  <updated>2016-05-30T14:55:48Z</updated>
+  <id>http://arisearch.github.ioindex.xml</id>
+  <entry><title type="html">Music Notation - SuperCollider</title><author><name>nil</name></author><link href="http://arisearch.github.io/blog/2014/11/06_music-notation-supercollider.html"/><updated>2014-11-06T14:32:00Z</updated><published>2014-11-06T14:32:00Z</published><id>blog/2014/11/06_music-notation-supercollider.html</id><category scheme="/tags/music-notation.html" term="music_notation" label="music_notation"/><category scheme="/tags/supercollider.html" term="supercollider" label="supercollider"/><category scheme="/tags/lilypond.html" term="lilypond" label="lilypond"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

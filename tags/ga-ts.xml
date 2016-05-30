@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
-  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
-  <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2016-05-09T17:57:32Z</updated>
-  <id>http://users.ionio.gr/~aribezas/index.xml</id>
-  <entry><title type="html">Working on The God Article [2015-05-22 Fri]</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//work-for-more-god-article/2015/05/24_working-on-the-god-article-2015-05-22-fri.html"/><updated>2015-05-24T13:57:00Z</updated><published>2015-05-24T13:57:00Z</published><id>work-for-more-god-article/2015/05/24_working-on-the-god-article-2015-05-22-fri.html</id><category scheme="/tags/ga-ts.html" term="GA_TS" label="GA_TS"/>Lisp error in nil: (void-function htmlize-protect-string)
+  <title>aRisearch</title>
+  <link href="http://arisearch.github.ioindex.xml" rel="self" />
+  <link href="http://arisearch.github.io"/>
+  <updated>2016-05-30T14:55:42Z</updated>
+  <id>http://arisearch.github.ioindex.xml</id>
+  <entry><title type="html">Working on The God Article [2015-05-22 Fri]</title><author><name>nil</name></author><link href="http://arisearch.github.io/work-for-more-god-article/2015/05/24_working-on-the-god-article-2015-05-22-fri.html"/><updated>2015-05-24T13:57:00Z</updated><published>2015-05-24T13:57:00Z</published><id>work-for-more-god-article/2015/05/24_working-on-the-god-article-2015-05-22-fri.html</id><category scheme="/tags/ga-ts.html" term="GA_TS" label="GA_TS"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

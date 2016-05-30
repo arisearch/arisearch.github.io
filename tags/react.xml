@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
-  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
-  <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2016-05-09T17:57:45Z</updated>
-  <id>http://users.ionio.gr/~aribezas/index.xml</id>
-  <entry><title type="html">The God Article - documentary</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//react/2015/03/01_the-god-article-documentary.html"/><updated>2015-03-01T21:06:00Z</updated><published>2015-03-01T21:06:00Z</published><id>react/2015/03/01_the-god-article-documentary.html</id><category scheme="/tags/react.html" term="react" label="react"/>Lisp error in nil: (void-function htmlize-protect-string)
+  <title>aRisearch</title>
+  <link href="http://arisearch.github.ioindex.xml" rel="self" />
+  <link href="http://arisearch.github.io"/>
+  <updated>2016-05-30T14:55:52Z</updated>
+  <id>http://arisearch.github.ioindex.xml</id>
+  <entry><title type="html">The God Article - documentary</title><author><name>nil</name></author><link href="http://arisearch.github.io/react/2015/03/01_the-god-article-documentary.html"/><updated>2015-03-01T21:06:00Z</updated><published>2015-03-01T21:06:00Z</published><id>react/2015/03/01_the-god-article-documentary.html</id><category scheme="/tags/react.html" term="react" label="react"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

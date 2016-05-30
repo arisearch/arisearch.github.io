@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
-  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
-  <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2016-05-09T17:57:34Z</updated>
-  <id>http://users.ionio.gr/~aribezas/index.xml</id>
-  <entry><title type="html">AVA540 - Interactive AudioVisuals</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//avarts/2013/12/08_ava540-interactive-audiovisuals.html"/><updated>2013-12-08T21:26:00Z</updated><published>2013-12-08T21:26:00Z</published><id>avarts/2013/12/08_ava540-interactive-audiovisuals.html</id><category scheme="/tags/avarts.html" term="avarts" label="avarts"/><category scheme="/tags/classes.html" term="classes" label="classes"/><category scheme="/tags/ava540.html" term="ava540" label="ava540"/>Lisp error in nil: (void-function htmlize-protect-string)
+  <title>aRisearch</title>
+  <link href="http://arisearch.github.ioindex.xml" rel="self" />
+  <link href="http://arisearch.github.io"/>
+  <updated>2016-05-30T14:55:44Z</updated>
+  <id>http://arisearch.github.ioindex.xml</id>
+  <entry><title type="html">AVA540 - Interactive AudioVisuals</title><author><name>nil</name></author><link href="http://arisearch.github.io/avarts/2013/12/08_ava540-interactive-audiovisuals.html"/><updated>2013-12-08T21:26:00Z</updated><published>2013-12-08T21:26:00Z</published><id>avarts/2013/12/08_ava540-interactive-audiovisuals.html</id><category scheme="/tags/avarts.html" term="avarts" label="avarts"/><category scheme="/tags/classes.html" term="classes" label="classes"/><category scheme="/tags/ava540.html" term="ava540" label="ava540"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
-  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
-  <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2016-05-09T17:57:44Z</updated>
-  <id>http://users.ionio.gr/~aribezas/index.xml</id>
-  <entry><title type="html">Write web applications</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//blog/2011/02/02_write-web-applications.html"/><updated>2011-02-02T20:20:00Z</updated><published>2011-02-02T20:20:00Z</published><id>blog/2011/02/02_write-web-applications.html</id><category scheme="/tags/cgi.html" term="cgi" label="cgi"/><category scheme="/tags/perl.html" term="perl" label="perl"/><category scheme="/tags/web.html" term="web" label="web"/>Lisp error in nil: (void-function htmlize-protect-string)
+  <title>aRisearch</title>
+  <link href="http://arisearch.github.ioindex.xml" rel="self" />
+  <link href="http://arisearch.github.io"/>
+  <updated>2016-05-30T14:55:52Z</updated>
+  <id>http://arisearch.github.ioindex.xml</id>
+  <entry><title type="html">Write web applications</title><author><name>nil</name></author><link href="http://arisearch.github.io/blog/2011/02/02_write-web-applications.html"/><updated>2011-02-02T20:20:00Z</updated><published>2011-02-02T20:20:00Z</published><id>blog/2011/02/02_write-web-applications.html</id><category scheme="/tags/cgi.html" term="cgi" label="cgi"/><category scheme="/tags/perl.html" term="perl" label="perl"/><category scheme="/tags/web.html" term="web" label="web"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

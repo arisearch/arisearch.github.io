@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
-  <link href="http://users.ionio.gr/~aribezas/index.xml" rel="self" />
-  <link href="http://users.ionio.gr/~aribezas/"/>
-  <updated>2016-05-09T17:57:49Z</updated>
-  <id>http://users.ionio.gr/~aribezas/index.xml</id>
-  <entry><title type="html">About Javascript</title><author><name>nil</name></author><link href="http://users.ionio.gr/~aribezas//javascript/2015/03/17_about-javascript.html"/><updated>2015-03-17T10:17:00Z</updated><published>2015-03-17T10:17:00Z</published><id>javascript/2015/03/17_about-javascript.html</id><category scheme="/tags/tool.html" term="tool" label="tool"/><category scheme="/tags/web-development.html" term="web@development" label="web@development"/><category scheme="/tags/javascript.html" term="javascript" label="javascript"/>Lisp error in nil: (void-function htmlize-protect-string)
+  <title>aRisearch</title>
+  <link href="http://arisearch.github.ioindex.xml" rel="self" />
+  <link href="http://arisearch.github.io"/>
+  <updated>2016-05-30T14:55:56Z</updated>
+  <id>http://arisearch.github.ioindex.xml</id>
+  <entry><title type="html">About Javascript</title><author><name>nil</name></author><link href="http://arisearch.github.io/javascript/2015/03/17_about-javascript.html"/><updated>2015-03-17T10:17:00Z</updated><published>2015-03-17T10:17:00Z</published><id>javascript/2015/03/17_about-javascript.html</id><category scheme="/tags/tool.html" term="tool" label="tool"/><category scheme="/tags/web-development.html" term="web@development" label="web@development"/><category scheme="/tags/javascript.html" term="javascript" label="javascript"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>
