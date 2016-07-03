@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://arisearch.github.ioindex.xml" rel="self" />
   <link href="http://arisearch.github.io"/>
-  <updated>2016-05-30T14:55:47Z</updated>
+  <updated>2016-07-03T11:24:45Z</updated>
   <id>http://arisearch.github.ioindex.xml</id>
   <entry><title type="html">Gea Duo: a live Audio- and Video-Scape Duet</title><author><name>nil</name></author><link href="http://arisearch.github.io/iclc-international-conference-on-live-coding/2015/02/24_gea-duo-a-live-audio-and-video-scape-duet.html"/><updated>2015-02-24T09:51:00Z</updated><published>2015-02-24T09:51:00Z</published><id>iclc-international-conference-on-live-coding/2015/02/24_gea-duo-a-live-audio-and-video-scape-duet.html</id><category scheme="/tags/iclc.html" term="iclc" label="iclc"/><category scheme="/tags/performance.html" term="performance" label="performance"/><category scheme="/tags/.html" term="" label=""/><category scheme="/tags/gea.html" term="gea" label="gea"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>

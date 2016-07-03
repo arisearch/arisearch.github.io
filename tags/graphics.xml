@@ -3,7 +3,7 @@
   <title>aRisearch</title>
   <link href="http://arisearch.github.ioindex.xml" rel="self" />
   <link href="http://arisearch.github.io"/>
-  <updated>2016-05-30T14:55:46Z</updated>
+  <updated>2016-07-03T11:24:44Z</updated>
   <id>http://arisearch.github.ioindex.xml</id>
   <entry><title type="html">Draw some lines</title><author><name>nil</name></author><link href="http://arisearch.github.io/studies-with-gea/2013/11/10_draw-some-lines.html"/><updated>2013-11-10T19:47:00Z</updated><published>2013-11-10T19:47:00Z</published><id>studies-with-gea/2013/11/10_draw-some-lines.html</id><category scheme="/tags/graphics.html" term="graphics" label="graphics"/><category scheme="/tags/gea.html" term="gea" label="gea"/>Lisp error in nil: (void-function htmlize-protect-string)
 </feed>
